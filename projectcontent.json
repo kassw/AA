@@ -1,0 +1,259 @@
+{
+  "languages": {
+    "fr": { "name": "Français", "code": "fr" },
+    "ar": { "name": "العربية", "code": "ar" },
+    "tr": { "name": "Türkçe", "code": "tr" }
+  },
+
+  "fr": {
+    "projectsLight": {
+      "meta": {
+        "title": "Dossiers & Références | Cabinet Av. Funda Abuoglu",
+        "description": "Dossiers traités avec succès dans tous nos domaines de compétence."
+      },
+      "header": {
+        "darkMode": "Mode sombre"
+      },
+      "hero": {
+        "backLink": "← Retour à l'accueil",
+        "title": "Dossiers & Références",
+        "subtitle": "Succès et accompagnements dans tous nos domaines de compétence"
+      },
+      "projects": [
+        {
+          "id": 1,
+          "title": "Stratégie Juridique pour Entrepreneur",
+          "category": "Conseil Juridique",
+          "description": "Accompagnement d'un entrepreneur français dans la structuration de ses activités en Turquie. Analyse des risques, optimisation fiscale et mise en place d'une stratégie de conformité.",
+          "tags": ["Conseil", "Fiscalité", "Structuration"],
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&q=80"
+        },
+        {
+          "id": 2,
+          "title": "Procédure de Divorce International",
+          "category": "Droit de la Famille",
+          "description": "Représentation d'une cliente dans une procédure de divorce complexe impliquant plusieurs juridictions (France-Turquie). Négociation du partage des biens et arrangements de garde d'enfants.",
+          "tags": ["Divorce", "International", "Enfants"],
+          "image": "https://images.unsplash.com/photo-1491438639410-acada59a3033?w=500&q=80"
+        },
+        {
+          "id": 3,
+          "title": "Constitution et Gouvernance d'une LLC",
+          "category": "Droit des Sociétés",
+          "description": "Création et structuration juridique d'une société à responsabilité limitée en Turquie pour des investisseurs expatriés. Mise en place de la gouvernance d'entreprise et des contrats commerciaux.",
+          "tags": ["Création", "Gouvernance", "Contrats"],
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&q=80"
+        },
+        {
+          "id": 4,
+          "title": "Visa de Résidence Long Terme pour Investisseur",
+          "category": "Droit des Étrangers",
+          "description": "Dossier complet de demande de titre de séjour pour un investisseur étranger, incluant l'achat immobilier, les permis de travail et la régularisation familiale. Résultat positif après 6 mois.",
+          "tags": ["Résidence", "Investisseur", "Immobilier"],
+          "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=500&q=80"
+        }
+      ],
+      "cta": {
+        "title": "Prêt à confier votre dossier ?",
+        "description": "Nous sommes disponibles pour discuter de votre situation juridique et vous proposer une stratégie adaptée.",
+        "contactButton": "Nous contacter",
+        "scheduleButton": "Planifier une consultation"
+      },
+      "footer": {
+        "description": "Cabinet d'avocat à Istanbul, dédié au conseil, au droit de la famille, au droit des sociétés et au droit des étrangers.",
+        "services": {
+          "title": "Services",
+          "links": [
+            "Conseil juridique",
+            "Droit de la famille",
+            "Droit des sociétés",
+            "Droit des étrangers"
+          ]
+        },
+        "company": {
+          "title": "Cabinet",
+          "links": [
+            "Dossiers & références",
+            "À propos",
+            "Contact"
+          ]
+        },
+        "connect": {
+          "title": "Réseaux",
+          "links": [
+            "LinkedIn"
+          ]
+        },
+        "copyright": "© 2025 Cabinet Av. Funda Abuoglu. Tous droits réservés."
+      }
+    }
+  },
+
+  "ar": {
+    "projectsLight": {
+      "meta": {
+        "title": "القضايا والخبرة | مكتب المحامية فندا أبو أوغلو",
+        "description": "قضايا تم التعامل معها بنجاح في جميع مجالات تخصصنا."
+      },
+      "header": {
+        "darkMode": "الوضع الليلي"
+      },
+      "hero": {
+        "backLink": "← العودة للصفحة الرئيسية",
+        "title": "القضايا والخبرة",
+        "subtitle": "النجاح والمرافقة في جميع مجالات اختصاصنا"
+      },
+      "projects": [
+        {
+          "id": 1,
+          "title": "استراتيجية قانونية لرجل أعمال",
+          "category": "استشارة قانونية",
+          "description": "مرافقة رجل أعمال فرنسي في هيكلة أنشطته في تركيا. تحليل المخاطر وتحسين الضرائب ووضع استراتيجية الامتثال.",
+          "tags": ["استشارة", "ضرائب", "هيكلة"],
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&q=80"
+        },
+        {
+          "id": 2,
+          "title": "إجراءات الطلاق الدولية",
+          "category": "قانون الأسرة",
+          "description": "تمثيل عميلة في إجراء طلاق معقد يتضمن عدة اختصاصات قضائية (فرنسا - تركيا). التفاوض على تقسيم الممتلكات وترتيبات حضانة الأطفال.",
+          "tags": ["طلاق", "دولي", "أطفال"],
+          "image": "https://images.unsplash.com/photo-1491438639410-acada59a3033?w=500&q=80"
+        },
+        {
+          "id": 3,
+          "title": "تأسيس وإدارة شركة ذات مسؤولية محدودة",
+          "category": "قانون الشركات",
+          "description": "إنشاء وهيكلة قانونية لشركة ذات مسؤولية محدودة في تركيا للمستثمرين الأجانب. إنشاء حوكمة الشركات والعقود التجارية.",
+          "tags": ["تأسيس", "إدارة", "عقود"],
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&q=80"
+        },
+        {
+          "id": 4,
+          "title": "تأشيرة الإقامة طويلة الأجل للمستثمر",
+          "category": "قانون الأجانب",
+          "description": "ملف كامل لطلب الإقامة لمستثمر أجنبي، بما في ذلك الشراء العقاري وتصاريح العمل والتنظيم العائلي. نتيجة إيجابية بعد 6 أشهر.",
+          "tags": ["إقامة", "مستثمر", "عقاري"],
+          "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=500&q=80"
+        }
+      ],
+      "cta": {
+        "title": "هل أنتم مستعدون لإسناد ملفكم؟",
+        "description": "نحن متاحون للنقاش حول وضعكم القانوني واقتراح استراتيجية مناسبة لكم.",
+        "contactButton": "اتصلوا بنا",
+        "scheduleButton": "احجزوا موعدًا"
+      },
+      "footer": {
+        "description": "مكتب محاماة في إسطنبول، مختص في الاستشارات القانونية وقانون الأسرة وقانون الشركات وقانون الأجانب.",
+        "services": {
+          "title": "الخدمات",
+          "links": [
+            "استشارة قانونية",
+            "قانون الأسرة",
+            "قانون الشركات",
+            "قانون الأجانب"
+          ]
+        },
+        "company": {
+          "title": "المكتب",
+          "links": [
+            "القضايا والخبرة",
+            "من نحن",
+            "اتصال"
+          ]
+        },
+        "connect": {
+          "title": "تابعونا",
+          "links": [
+            "LinkedIn"
+          ]
+        },
+        "copyright": "© 2025 مكتب المحامية فندا أبو أوغلو. جميع الحقوق محفوظة."
+      }
+    }
+  },
+
+  "tr": {
+    "projectsLight": {
+      "meta": {
+        "title": "Dosyalar ve Referanslar | Av. Funda Abuoglu Hukuk Bürosu",
+        "description": "Uzmanlığımız alanlarında başarıyla ele alınmış dosyalar."
+      },
+      "header": {
+        "darkMode": "Karanlık mod"
+      },
+      "hero": {
+        "backLink": "← Ana sayfaya dön",
+        "title": "Dosyalar ve Referanslar",
+        "subtitle": "Uzmanlığımız alanlarında başarı ve danışmanlık"
+      },
+      "projects": [
+        {
+          "id": 1,
+          "title": "Girişimci için Hukuki Strateji",
+          "category": "Hukuki Danışmanlık",
+          "description": "Türkiye'de faaliyetlerini yapılandırmak isteyen Fransız bir girişimcinin danışmanlığı. Risk analizi, vergi optimizasyonu ve uyum stratejisinin uygulanması.",
+          "tags": ["Danışmanlık", "Vergi", "Yapılandırma"],
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&q=80"
+        },
+        {
+          "id": 2,
+          "title": "Uluslararası Boşanma Davası",
+          "category": "Aile Hukuku",
+          "description": "Birden çok yargı yetkisini (Fransa-Türkiye) içeren karmaşık bir boşanma davasında müvekkil temsiliyeti. Mal paylaşımı ve çocuk velayeti düzenlemelerinin müzakereleri.",
+          "tags": ["Boşanma", "Uluslararası", "Çocuk"],
+          "image": "https://images.unsplash.com/photo-1491438639410-acada59a3033?w=500&q=80"
+        },
+        {
+          "id": 3,
+          "title": "Şirket Kuruluşu ve Yönetimi",
+          "category": "Şirketler Hukuku",
+          "description": "Türkiye'de yabancı yatırımcılar için limited şirket kurulması ve hukuki yapılandırılması. Kurumsal yönetim ve ticari sözleşmelerin oluşturulması.",
+          "tags": ["Kuruluş", "Yönetim", "Sözleşmeler"],
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&q=80"
+        },
+        {
+          "id": 4,
+          "title": "Yatırımcı için Uzun Vadeli İkamet Visesi",
+          "category": "Yabancılar Hukuku",
+          "description": "Yabancı bir yatırımcı için oturma izni talebinin tam dosyası, gayrimenkul satın almayı, çalışma izinlerini ve aile düzenlemesini içermektedir. 6 aydan sonra olumlu sonuç.",
+          "tags": ["İkamet", "Yatırımcı", "Gayrimenkul"],
+          "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=500&q=80"
+        }
+      ],
+      "cta": {
+        "title": "Dosyanızı bize emanet etmeye hazır mısınız?",
+        "description": "Hukuki durumunuzu tartışmak ve size uygun bir strateji önerme konusunda hazırız.",
+        "contactButton": "Bize ulaşın",
+        "scheduleButton": "Danışmanlık rezervasyonu"
+      },
+      "footer": {
+        "description": "İstanbul'da danışmanlık, aile hukuku, şirketler hukuku ve yabancılar hukuku alanlarında faaliyet gösteren hukuk bürosu.",
+        "services": {
+          "title": "Hizmetler",
+          "links": [
+            "Hukuki danışmanlık",
+            "Aile hukuku",
+            "Şirketler hukuku",
+            "Yabancılar hukuku"
+          ]
+        },
+        "company": {
+          "title": "Büro",
+          "links": [
+            "Dosyalar ve referanslar",
+            "Hakkımızda",
+            "İletişim"
+          ]
+        },
+        "connect": {
+          "title": "Bağlantılar",
+          "links": [
+            "LinkedIn"
+          ]
+        },
+        "copyright": "© 2025 Av. Funda Abuoglu Hukuk Bürosu. Tüm hakları saklıdır."
+      }
+    }
+  }
+}

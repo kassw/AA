@@ -1,63 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Core Innovation Services | We develop Visions</title>
-    <meta name="description" content="We empower businesses and organizations to thrive by delivering end-to-end technology solutions. From foundational web development to Web3 integration, our services are designed to simplify complexity, drive growth, and future-proof your operations.">
-    <meta name="keywords" content="technology solutions, web development, process automating, Web3 integration, blockchain, DevOps, cybersecurity, AI, automation, digital transformation, Agentic AI">
-    <meta name="author" content="Core Innovation Services">
+    <title id="page-title">Cabinet Av. Funda Abuoglu | Excellence juridique à Istanbul</title>
+    <meta name="description" id="page-description" content="Cabinet d'avocat à Istanbul dédié au conseil, au droit de la famille, au droit des sociétés et au droit des étrangers.">
+    <meta name="keywords" content="avocat Istanbul, cabinet juridique, droit famille, droit sociétés, droit étrangers">
+    <meta name="author" content="Cabinet Av. Funda Abuoglu">
     <meta name="robots" content="index, follow">
-    <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="style-light.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Calendly Widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
-    <!-- Open Graph Metadata for LinkedIn -->
-    <meta property="og:title" content="Core Innovation Services | Making Technology Work for You">
-    <meta property="og:description" content="We empower businesses and organizations to thrive by delivering end-to-end technology solutions. From foundational web development to Web3 integration, our services are designed to simplify complexity, drive growth, and future-proof your operations.">
-    <meta property="og:image" content="https://cis-dapp.com/logo2.png">
-    <meta property="og:url" content="https://www.cis-dapp.com">
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Cabinet Av. Funda Abuoglu | Excellence juridique à Istanbul">
+    <meta property="og:description" content="Cabinet d'avocat à Istanbul offrant conseil, droit de la famille, droit des sociétés et droit des étrangers.">
+    <meta property="og:image" content="logo.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Core Innovation Services">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Cabinet Av. Funda Abuoglu">
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://cis-dapp.com">
-
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Core Innovation Services",
-      "url": "https://cis-dapp.com",
-      "logo": "https://cis-dapp.com/logo.png",
-      "sameAs": [
-        "https://www.linkedin.com/company/cis-dapp/"
-      ],
+      "@type": "LegalService",
+      "name": "Cabinet Av. Funda Abuoglu",
+      "url": "https://abuoglu.com",
+      "logo": "logo.png",
+      "sameAs": ["https://www.linkedin.com/in/funda-abuoglu/"],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+90-542-473-4669",
-        "contactType": "Customer Service"
-      }
+        "contactType": "Legal Consultation"
+      },
+      "areaServed": ["TR", "FR", "AR"]
     }
     </script>
 </head>
 <body>
-    <!-- Minimal Header -->
+    <!-- Header -->
     <header class="header">
         <div class="header-container">
-            <img src="logo.png" alt="Core Innovation Services Logo" class="header-logo" id="header-logo">
+            <!-- Stylish AA Logo with Text -->
+            <div class="logo-container">
+                <img src="logo.png" style="max-width: 50px;" alt="Cabinet Av. Funda Abuoglu" class="logo-image" id="header-logo">
+                <div class="logo-text">
+                    <div class="logo-brand">Abuoglu Avocats</div>
+                </div>
+            </div>
             <div style="display: flex; gap: 10px; align-items: center;">
-                <button class="lang-toggle-header" onclick="toggleLanguage()" id="lang-toggle">
-                    <span id="lang-text">EN</span>
-                </button>
+                <!-- Language Dropdown -->
+                <div class="lang-dropdown-container">
+                    <button class="lang-toggle-header" onclick="toggleLangDropdown()" id="lang-toggle">
+                        <span id="lang-text">FR</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="lang-dropdown-menu" id="lang-dropdown-menu">
+                        <button class="lang-option" data-lang="fr">Français</button>
+                        <button class="lang-option" data-lang="ar">العربية</button>
+                        <button class="lang-option" data-lang="tr">Türkçe</button>
+                    </div>
+                </div>
+                <!-- Theme Toggle -->
                 <button class="theme-toggle-header" onclick="toggleTheme()" id="theme-toggle">
                     <span id="theme-toggle-text">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                        Dark Mode
+                        <span id="theme-text">Dark Mode</span>
                     </span>
                 </button>
             </div>
@@ -68,19 +82,15 @@
     <section class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Transform Your Business with Innovative Technology Solutions</h1>
-                <p class="hero-subtitle">We empower businesses and organizations to thrive by delivering end-to-end technology solutions. From foundational web development to Web3 integration, our services are designed to simplify complexity, drive growth, and future-proof your operations.</p>
+                <h1 class="hero-title" id="hero-title">Un cabinet d'avocat au service de vos intérêts</h1>
+                <p class="hero-subtitle" id="hero-subtitle">Le Cabinet Av. Funda Abuoglu accompagne particuliers, familles, entreprises et étrangers en Turquie avec des solutions juridiques claires, efficaces et adaptées à chaque situation.</p>
                 <div class="hero-cta">
-                    <a href="./projects-light.html" class="btn-secondary">View Our Work</a>
-                     <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a class="btn-secondary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rd-cis-dapp/30min'});return false;">Schedule call</a>
-<!-- Calendly link widget end -->
+                    <a href="./projects-light.html" class="btn-secondary" id="view-work-btn">Dossiers & références</a>
+                    <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/celinefunda-abuoglu/30min'});return false;" class="btn-secondary" id="schedule-btn">Prendre rendez-vous</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="hero1.png" alt="Innovation Illustration" class="hero-img">
+                <img src="hero.png" alt="Cabinet Juridique" class="hero-img faded-rounded-border">
             </div>
         </div>
     </section>
@@ -89,343 +99,228 @@
     <section class="services" id="services">
         <div class="services-container">
             <div class="section-header">
-                <h2 class="section-title">Our Comprehensive Solutions</h2>
-                <p class="section-subtitle">Tailored services to meet your unique technology needs</p>
+                <h2 class="section-title" id="services-title">Nos domaines de pratique</h2>
+                <p class="section-subtitle" id="services-subtitle">Solutions juridiques sur mesure pour vos besoins spécifiques</p>
             </div>
             <div class="services-grid">
-                <!-- Service 1 -->
+                <!-- Service 1: Conseil Juridique -->
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16 18L22 12L16 6M8 6L2 12L8 18" stroke="#00a896" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <img src="1.png" alt="Conseil Juridique" style="width: 48px; height: 48px;">
                     </div>
-                    <h3 class="service-title">Development & Design</h3>
-                    <p class="service-description">Scalable web applications, blockchain-based DApps, and AI-driven automation solutions tailored to your business logic.</p>
-                    <ul class="service-list">
-                        <li>Web Applications & Websites</li>
-                        <li>Web3 & DApps</li>
-                        <li>Process Automation & Agent AI</li>
+                    <h3 class="service-title" id="service-consulting-title">CONSEIL JURIDIQUE</h3>
+                    <p class="service-description" id="service-consulting-intro">Accompagnement juridique complet adapté à votre situation</p>
+                    <ul class="service-list" id="service-consulting-list">
+                        <li><strong>Consultations juridiques :</strong> <span>Analyse de votre situation, identification des enjeux et définition d'une stratégie adaptée.</span></li>
+                        <li><strong>Conseil stratégique :</strong> <span>Accompagnement continu pour sécuriser vos décisions personnelles et professionnelles.</span></li>
+                        <li><strong>Suivi personnalisé :</strong> <span>Relation de confiance fondée sur l'écoute, la transparence et la disponibilité.</span></li>
                     </ul>
-                    <a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/development-and-design" target="_blank" class="service-link">Learn More →</a>
                 </div>
 
-                <!-- Service 2 -->
+                <!-- Service 2: Droit de la Famille -->
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 20V10M6 20V4M18 20V16" stroke="#00a896" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <img src="2.png" alt="Droit de la Famille" style="width: 48px; height: 48px;">
                     </div>
-                    <h3 class="service-title">Consulting & Strategy</h3>
-                    <p class="service-description">Expert guidance on infrastructure optimization, cloud migration, and comprehensive security audits for web2/web3 applications.</p>
-                    <ul class="service-list">
-                        <li>IT Consulting</li>
-                        <li>Security Auditing</li>
-                        <li>AI & Automation Strategy</li>
+                    <h3 class="service-title" id="service-family-title">DROIT DE LA FAMILLE</h3>
+                    <p class="service-description" id="service-family-intro">Accompagnement humain et discret dans les démarches familiales</p>
+                    <ul class="service-list" id="service-family-list">
+                        <li><strong>Divorce et séparation :</strong> <span>Accompagnement humain et discret dans les procédures de divorce, séparation et liquidation du régime matrimonial.</span></li>
+                        <li><strong>Enfants et patrimoine :</strong> <span>Conseil et représentation pour la garde d'enfants, la pension alimentaire et l'organisation patrimoniale.</span></li>
+                        <li><strong>Successions :</strong> <span>Assistance dans la gestion des héritages et des conflits familiaux en Turquie et à l'international.</span></li>
                     </ul>
-                    <a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/consulting-and-strategy" target="_blank" class="service-link">Learn More →</a>
                 </div>
 
-                <!-- Service 3 -->
+                <!-- Service 3: Droit des Sociétés -->
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 14L21 9L12 4L3 9L12 14ZM12 14L18.16 10.83C18.69 12.96 19 15.02 19 17C16.5 17.5 14.5 18 12 18C9.5 18 7.5 17.5 5 17C5 15.02 5.31 12.96 5.84 10.83L12 14Z" stroke="#00a896" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <img src="3.png" alt="Droit des Sociétés" style="width: 48px; height: 48px;">
                     </div>
-                    <h3 class="service-title">Education & Training</h3>
-                    <p class="service-description">Comprehensive workshops and hands-on training to upskill your team in emerging technologies and best practices.</p>
-                    <ul class="service-list">
-                        <li>Employee Upskilling</li>
-                        <li>Crypto Literacy</li>
-                        <li>AI & Automation Training</li>
+                    <h3 class="service-title" id="service-corporate-title">DROIT DES SOCIÉTÉS</h3>
+                    <p class="service-description" id="service-corporate-intro">Conseils juridiques pour la création et gestion de votre entreprise</p>
+                    <ul class="service-list" id="service-corporate-list">
+                        <li><strong>Création de société :</strong> <span>Structuration, constitution et accompagnement juridique de votre société en Turquie.</span></li>
+                        <li><strong>Contrats et gouvernance :</strong> <span>Rédaction, revue et négociation de contrats commerciaux et pactes d'associés.</span></li>
+                        <li><strong>Accompagnement des entreprises :</strong> <span>Conseil continu aux dirigeants et investisseurs pour sécuriser leurs opérations.</span></li>
                     </ul>
-                    <a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/education-and-training" target="_blank" class="service-link">Learn More →</a>
                 </div>
 
-                <!-- Service 4 -->
+                <!-- Service 4: Droit des Étrangers -->
                 <div class="service-card">
                     <div class="service-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#00a896" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 17L12 22L22 17" stroke="#00a896" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 12L12 17L22 12" stroke="#00a896" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <img src="4.png" alt="Droit des Étrangers" style="width: 48px; height: 48px;">
                     </div>
-                    <h3 class="service-title">Networking & Infrastructure</h3>
-                    <p class="service-description">Enterprise-grade network architecture with seamless cloud integration and AI-powered automation for optimal performance.</p>
-                    <ul class="service-list">
-                        <li>Secure Network Design</li>
-                        <li>Hybrid Cloud Solutions</li>
-                        <li>AI-Powered Infrastructure</li>
+                    <h3 class="service-title" id="service-foreigners-title">DROIT DES ÉTRANGERS</h3>
+                    <p class="service-description" id="service-foreigners-intro">Assistance complète pour les résidents et investisseurs étrangers en Turquie</p>
+                    <ul class="service-list" id="service-foreigners-list">
+                        <li><strong>Résidence et permis :</strong> <span>Démarches de titre de séjour, permis de travail et renouvellements pour les étrangers en Turquie.</span></li>
+                        <li><strong>Naturalisation :</strong> <span>Assistance dans les procédures de nationalité et de régularisation de situation.</span></li>
+                        <li><strong>Accompagnement des expatriés :</strong> <span>Conseil complet pour les particuliers et investisseurs étrangers souhaitant s'installer ou investir en Turquie.</span></li>
                     </ul>
-                    <a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/networking-and-infrastructure" target="_blank" class="service-link">Learn More →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features/Benefits Section -->
+    <!-- About Section -->
     <section class="features">
         <div class="features-container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Core Innovation Services</h2>
-                <p class="section-subtitle">Trusted by businesses worldwide for our commitment to excellence</p>
+                <h2 class="section-title" id="about-title">Pourquoi choisir notre cabinet</h2>
+                <p class="section-subtitle" id="about-subtitle">Excellence, confidentialité et expertise reconnue</p>
             </div>
             <div class="features-grid">
                 <div class="feature-item">
-                    <div class="feature-icon">✓</div>
-                    <h3 class="feature-title">End-to-End Solutions</h3>
-                    <p class="feature-text">Comprehensive technology services from concept to deployment and beyond.</p>
+                    <h3 class="feature-title" id="feature-1">Expertise Multi-Juridictions</h3>
+                    <p class="feature-text" id="feature-1-text">Conseil en droit turc, français et international pour une vision globale de vos situations.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-icon">✓</div>
-                    <h3 class="feature-title">Expert Team</h3>
-                    <p class="feature-text">Experienced professionals with deep expertise in emerging technologies.</p>
+                    <h3 class="feature-title" id="feature-2">Multilingue</h3>
+                    <p class="feature-text" id="feature-2-text">Services en français, anglais, arabe et turc pour une communication transparente.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-icon">✓</div>
-                    <h3 class="feature-title">Future-Proof Technology</h3>
-                    <p class="feature-text">Solutions designed to scale and adapt to evolving business needs.</p>
+                    <h3 class="feature-title" id="feature-3">Confidentialité Absolue</h3>
+                    <p class="feature-text" id="feature-3-text">Secret professionnel strictement respecté, pilier fondamental de notre pratique.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-icon">✓</div>
-                    <h3 class="feature-title">Tailored Approach</h3>
-                    <p class="feature-text">Custom solutions that align with your unique business objectives.</p>
+                    <h3 class="feature-title" id="feature-4">Approche Personnalisée</h3>
+                    <p class="feature-text" id="feature-4-text">Chaque client reçoit une stratégie adaptée à sa situation unique et ses objectifs.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-icon">✓</div>
-                    <h3 class="feature-title">Security First</h3>
-                    <p class="feature-text">Enterprise-grade security measures integrated into every solution.</p>
+                    <h3 class="feature-title" id="feature-5">Expérience Reconnue</h3>
+                    <p class="feature-text" id="feature-5-text">Années de pratique et clientèle internationale satisfaite dans tous les domaines couverts.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-icon">✓</div>
-                    <h3 class="feature-title">Ongoing Support</h3>
-                    <p class="feature-text">Continuous maintenance and support to ensure optimal performance.</p>
+                    <h3 class="feature-title" id="feature-6">Disponibilité Continue</h3>
+                    <p class="feature-text" id="feature-6-text">Accompagnement continu du début à la fin de vos démarches juridiques.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- How We Work Section -->
-    <section class="process">
-        <div class="process-container">
-            <div class="section-header">
-                <h2 class="section-title">How We Work</h2>
-                <p class="section-subtitle">Our proven process ensures successful project delivery</p>
-            </div>
-            <div class="process-steps">
-                <div class="process-step">
-                    <div class="step-number">01</div>
-                    <h3 class="step-title">Assess & Analyze</h3>
-                    <p class="step-description">We conduct a thorough assessment of your current situation, challenges, and opportunities.</p>
-                </div>
-                <div class="process-arrow">→</div>
-                <div class="process-step">
-                    <div class="step-number">02</div>
-                    <h3 class="step-title">Case Study & Identify</h3>
-                    <p class="step-description">Deep dive into your specific use case to identify optimal solutions and approaches.</p>
-                </div>
-                <div class="process-arrow">→</div>
-                <div class="process-step">
-                    <div class="step-number">03</div>
-                    <h3 class="step-title">Decide & Consult</h3>
-                    <p class="step-description">Collaborative decision-making to determine the best path forward for your project.</p>
-                </div>
-                <div class="process-arrow">→</div>
-                <div class="process-step">
-                    <div class="step-number">04</div>
-                    <h3 class="step-title">Approve Strategy</h3>
-                    <p class="step-description">Present comprehensive strategy for your approval with clear deliverables and timelines.</p>
-                </div>
-                <div class="process-arrow">→</div>
-                <div class="process-step">
-                    <div class="step-number">05</div>
-                    <h3 class="step-title">Act & Execute</h3>
-                    <p class="step-description">Implement the approved strategy with continuous communication and feedback loops.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Showcase -->
-    <section class="projects-preview" style=" text-align: -webkit-center;">
-        <div class="projects-container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Innovative solutions we've delivered for our clients</p>
-            </div>
-            <div class="projects-grid-preview">
-                <div class="project-preview-card">
-                    <h3 class="project-preview-title">BriSaKa Protocol</h3>
-                    <p class="project-preview-desc">Web3-friendly ecosystem from mini-games to full social media platform</p>
-                    <a href="https://brisaka.com" target="_blank" class="project-preview-link">View Project →</a>
-                </div>
-                <div class="project-preview-card">
-                    <h3 class="project-preview-title">OXECHAIN APP</h3>
-                    <p class="project-preview-desc">Web3 app with user rewards, in-app games & subscription-based partnerships</p>
-                    <a href="https://oxechain.com" target="_blank" class="project-preview-link">View Project →</a>
-                </div>
-                <div class="project-preview-card">
-                    <h3 class="project-preview-title">PAGOL AI</h3>
-                    <p class="project-preview-desc">Transforms ideas into digital solutions, empowering innovators</p>
-                    <a href="https://pagol.ai" target="_blank" class="project-preview-link">View Project →</a>
-                </div>
-            </div>
-            <div class="projects-cta">
-                <a href="./projects-light.html" class="btn-primary">View All Projects</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
+    <!-- CTA Section -->
     <section class="team">
         <div class="team-container">
             <div class="section-header">
-                <h2 class="section-title">Our Team</h2>
-                <p class="section-subtitle">Expert professionals dedicated to your success</p>
+                <h2 class="section-title" id="cta-ready-title">Prêt à nous confier votre dossier ?</h2>
+                <p class="section-subtitle" id="cta-ready-subtitle">Expliquez votre situation et découvrez comment nous pouvons vous accompagner</p>
             </div>
             <div class="team-content">
-                <p class="team-description">Our multidisciplinary team brings together expertise in software development, blockchain technology, AI/ML, cybersecurity, and infrastructure management. With years of combined experience, we're committed to delivering innovative solutions that drive real business value.</p>
+                <p class="team-description" id="cta-description">Le Cabinet Av. Funda Abuoglu offre un accompagnement juridique complet et confidentiel. Que vous soyez un particulier, une famille, une entreprise ou un investisseur étranger, nous avons les compétences et l'expérience pour résoudre vos enjeux juridiques.</p>
                 <div class="team-stats">
                     <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">Years Experience</div>
+                        <div class="stat-number" id="stat-1">15+</div>
+                        <div class="stat-label" id="stat-1-label">Années d'expérience</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">Projects Delivered</div>
+                        <div class="stat-number" id="stat-2">100%</div>
+                        <div class="stat-label" id="stat-2-label">Confidentialité garantie</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">100%</div>
-                        <div class="stat-label">Client Satisfaction</div>
+                        <div class="stat-number" id="stat-3">4</div>
+                        <div class="stat-label" id="stat-3-label">Langues de service</div>
                     </div>
+                </div>
+                <div style="margin-top: 40px;    place-self: center;">
+                    <a href="#contact" class="btn-primary" id="contact-btn-text">Nous contacter</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="pricing">
+    <!-- Service Types Section -->
+    <section class="service-types" id="service-types">
+        <div class="service-types-container">
+            <div class="section-header">
+                <h2 class="section-title" id="service-types-title">Types de services juridiques</h2>
+                <p class="section-subtitle" id="service-types-subtitle">Trois formules adaptées à vos besoins et votre budget</p>
+            </div>
+            <div class="service-types-grid" id="service-types-grid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="pricing" id="contact">
         <div class="pricing-container">
             <div class="section-header">
-                <h2 class="section-title">Flexible Pricing Plans</h2>
-                <p class="section-subtitle">Choose the right plan for your business needs</p>
+                <h2 class="section-title" id="contact-title">Nous contacter</h2>
+                <p class="section-subtitle" id="contact-subtitle">Consultation gratuite pour évaluer votre dossier</p>
             </div>
             <div class="pricing-grid">
                 <div class="pricing-card">
-                    <h3 class="pricing-title">Consultation</h3>
-                    <div class="pricing-price">Custom</div>
-                    <p class="pricing-description">Strategic guidance and expert advice</p>
+                    <h3 class="pricing-title" id="contact-option-1">Consultation directe</h3>
+                    <p class="pricing-description" id="contact-option-1-desc">Discutez de votre situation</p>
                     <ul class="pricing-features">
-                        <li>Initial assessment</li>
-                        <li>Technology recommendations</li>
-                        <li>Implementation roadmap</li>
-                        <li>Best practices guidance</li>
+                        <li id="contact-feature-1">Évaluation gratuite du dossier</li>
+                        <li id="contact-feature-2">Conseil juridique initial</li>
+                        <li id="contact-feature-3">Plan d'action recommandé</li>
                     </ul>
-                    <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a class="btn-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rd-cis-dapp/30min'});return false;">Schedule call</a>
-<!-- Calendly link widget end -->
+                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/celinefunda-abuoglu/30min'});return false;" class="btn-primary" style="display: inline-block; width: 100%; text-align: center; padding: 12px 24px; cursor: pointer;" id="calendly-btn">Planifier une consultation</a>
                 </div>
                 <div class="pricing-card pricing-featured">
-                    <div class="pricing-badge">Most Popular</div>
-                    <h3 class="pricing-title">Project-Based</h3>
-                    <div class="pricing-price">Custom Quote</div>
-                    <p class="pricing-description">Full-service project development</p>
+                    <div class="pricing-badge" id="contact-badge">Recommandé</div>
+                    <h3 class="pricing-title" id="contact-option-2">Email</h3>
+                    <p class="pricing-description" id="contact-option-2-desc">Décrivez votre situation par écrit</p>
                     <ul class="pricing-features">
-                        <li>Complete project lifecycle</li>
-                        <li>Dedicated team</li>
-                        <li>Regular updates</li>
-                        <li>Post-launch support</li>
-                        <li>Source code delivery</li>
+                        <li id="contact-email-1">Réponse rapide dans 24h</li>
+                        <li id="contact-email-2">Analyse détaillée de votre cas</li>
+                        <li id="contact-email-3">Évaluation des frais</li>
                     </ul>
-                    <a href="mailto:bd@cis-dapp.com?subject=Project Quote Request&body=Hello, I would like to request a quote for my project." class="btn-primary">Get Quote</a>
+                    <a style="width: 100%; text-align: center;" href="mailto:celinefunda@abuoglu.com?subject=Demande de consultation" class="btn-primary" id="email-btn-text">Envoyer un email</a>
                 </div>
                 <div class="pricing-card">
-                    <h3 class="pricing-title">Retainer</h3>
-                    <div class="pricing-price">Monthly</div>
-                    <p class="pricing-description">Ongoing support and development</p>
+                    <h3 class="pricing-title" id="contact-option-3">Téléphone</h3>
+                    <p class="pricing-description" id="contact-option-3-desc">Contact direct avec le cabinet</p>
                     <ul class="pricing-features">
-                        <li>Priority support</li>
-                        <li>Monthly hours allocation</li>
-                        <li>Flexible scope</li>
-                        <li>Continuous improvement</li>
+                        <li id="contact-phone-1">Disponible du lundi au vendredi</li>
+                        <li id="contact-phone-2">Réponses à vos questions</li>
+                        <li id="contact-phone-3">Prise de rendez-vous rapide</li>
                     </ul>
-                    <a href="mailto:bd@cis-dapp.com?subject=Monthly Retainer Inquiry&body=Hello, I am interested in discussing a monthly retainer plan." class="btn-primary">Contact Us</a>
+                    <a style="width: 100%; text-align: center;" href="tel:+905337905278" class="btn-primary" id="phone-btn-text">Appeler</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section -->
-    <section class="faq">
-        <div class="faq-container">
-            <div class="section-header">
-                <h2 class="section-title">Frequently Asked Questions</h2>
-                <p class="section-subtitle">Everything you need to know about our services</p>
-            </div>
-            <div class="faq-list">
-                <div class="faq-item">
-                    <h3 class="faq-question">What types of projects do you work on?</h3>
-                    <p class="faq-answer">We work on a wide range of projects including web applications, blockchain DApps, AI automation, infrastructure setup, and custom software solutions. Our expertise spans both traditional web2 and emerging web3 technologies.</p>
-                </div>
-                <div class="faq-item">
-                    <h3 class="faq-question">How long does a typical project take?</h3>
-                    <p class="faq-answer">Project timelines vary based on scope and complexity. A simple website might take 2-4 weeks, while a complex DApp or enterprise solution could take 3-6 months. We provide detailed timelines during the consultation phase.</p>
-                </div>
-                <div class="faq-item">
-                    <h3 class="faq-question">Do you provide ongoing support after project completion?</h3>
-                    <p class="faq-answer">Yes! We offer various support packages including maintenance, updates, monitoring, and enhancement services. We're committed to the long-term success of your project.</p>
-                </div>
-                <div class="faq-item">
-                    <h3 class="faq-question">What is your approach to security?</h3>
-                    <p class="faq-answer">Security is paramount in everything we build. We follow industry best practices, conduct security audits, implement encryption, and use secure coding standards. For Web3 projects, we perform smart contract audits.</p>
-                </div>
-                <div class="faq-item">
-                    <h3 class="faq-question">Can you help train our team on new technologies?</h3>
-                    <p class="faq-answer">Absolutely! We offer comprehensive training programs covering Web3, blockchain, AI/ML, DevOps, cybersecurity, and more. Training can be customized to your team's specific needs and skill levels.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Calendly Widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-grid">
                 <div class="footer-column">
-                    <img src="logo.png" alt="Core Innovation Services" class="footer-logo">
-                    <p class="footer-description">Empowering businesses with innovative technology solutions.</p>
+                    <img src="logo.png" alt="Cabinet Av. Funda Abuoglu" class="footer-logo">
+                    <p class="footer-description" id="footer-desc">Cabinet d'avocat à Istanbul, dédié au conseil, au droit de la famille, au droit des sociétés et au droit des étrangers.</p>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/development-and-design" target="_blank">Development & Design</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/consulting-and-strategy" target="_blank">Consulting & Strategy</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/education-and-training" target="_blank">Education & Training</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/networking-and-infrastructure" target="_blank">Infrastructure</a></li>
+                    <h4 class="footer-title" id="footer-services-title">Services</h4>
+                    <ul class="footer-links" id="footer-services">
+                        <li><a href="#services" id="footer-service-1">Conseil juridique</a></li>
+                        <li><a href="#services" id="footer-service-2">Droit de la famille</a></li>
+                        <li><a href="#services" id="footer-service-3">Droit des sociétés</a></li>
+                        <li><a href="#services" id="footer-service-4">Droit des étrangers</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="./projects.html">Projects</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation" target="_blank">Documentation</a></li>
-                        <li><a href="mailto:bd@cis-dapp.com?subject=General Inquiry&body=Hello, I would like to get in touch with Core Innovation Services.">Contact</a></li>
+                    <h4 class="footer-title" id="footer-company-title">Cabinet</h4>
+                    <ul class="footer-links" id="footer-company">
+                        <li><a href="projects-light.html" id="footer-company-1">Dossiers & références</a></li>
+                        <li><a href="#about" id="footer-company-2">À propos</a></li>
+                        <li><a href="#contact" id="footer-company-3">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://www.linkedin.com/company/cis-dapp/" target="_blank">LinkedIn</a></li>
+                    <h4 class="footer-title" id="footer-connect-title">Réseaux</h4>
+                    <ul class="footer-links" id="footer-connect">
+                        <li><a href="https://www.linkedin.com/in/funda-abuoglu/" target="_blank">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Core Innovation Services. All rights reserved.</p>
+                <p id="footer-copyright">&copy; 2025 Cabinet Av. Funda Abuoglu. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
@@ -433,16 +328,16 @@
     <!-- Multi-language support -->
     <script>
         let content = null;
+        let isDarkMode = localStorage.getItem('theme') === 'dark';
 
-        // Detect if browser language is French
-        function isBrowserFrench() {
-            const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
-            return browserLang.startsWith('fr');
+        // Initialize dark mode on page load
+        function initializeDarkMode() {
+            if (isDarkMode) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-text').textContent = 'Light Mode';
+            }
         }
 
-        const isFrenchUser = isBrowserFrench();
-
-        // Get language from URL parameter or localStorage
         function getLanguageFromURL() {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get('lang');
@@ -454,269 +349,285 @@
             window.history.pushState({}, '', url);
         }
 
-        // Priority: URL parameter > localStorage > browser detection > default 'en'
-        const urlLang = getLanguageFromURL();
-        let currentLang = urlLang || localStorage.getItem('language') || (isFrenchUser ? 'fr' : 'en');
+        // Get browser language preference
+        const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase().split('-')[0];
+        const supportedLangs = ['fr', 'ar', 'tr'];
+        const defaultLang = supportedLangs.includes(browserLang) ? browserLang : 'fr';
 
-        // If URL has language, update localStorage to match
+        const urlLang = getLanguageFromURL();
+        let currentLang = urlLang || localStorage.getItem('language') || defaultLang;
+
         if (urlLang) {
             localStorage.setItem('language', urlLang);
         } else {
-            // If no URL parameter, add it based on current language
             setLanguageInURL(currentLang);
         }
 
-        // Load JSON content
+        // Load content from JSON
         fetch('content.json')
             .then(response => response.json())
             .then(data => {
                 content = data;
+                initializeDarkMode();
                 updateContent();
+                setupLanguageDropdown();
             })
             .catch(error => console.error('Error loading content:', error));
 
         function updateContent() {
-            if (!content) return;
-
-            // Verify that the language data exists
-            if (!content[currentLang] || !content[currentLang].indexLight) {
-                console.error('Language data not found for:', currentLang);
-                return;
-            }
+            if (!content || !content[currentLang]) return;
 
             const page = content[currentLang].indexLight;
 
             // Update meta tags
-            document.title = page.meta.title;
+            document.getElementById('page-title').textContent = page.meta.title;
             document.querySelector('meta[name="description"]').content = page.meta.description;
+            document.title = page.meta.title;
 
-            // Set text direction and logo based on language
+            // Set text direction
             if (currentLang === 'ar') {
                 document.documentElement.setAttribute('dir', 'rtl');
                 document.body.style.direction = 'rtl';
-                document.getElementById('header-logo').src = 'logo-ar.png';
             } else {
                 document.documentElement.setAttribute('dir', 'ltr');
                 document.body.style.direction = 'ltr';
-                document.getElementById('header-logo').src = 'logo.png';
             }
 
-            // Update theme toggle
-            document.getElementById('theme-toggle-text').innerHTML = `
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                ${page.header.darkMode}
-            `;
+            // Update hero
+            document.getElementById('hero-title').textContent = page.hero.title;
+            document.getElementById('hero-subtitle').textContent = page.hero.subtitle;
+            document.getElementById('view-work-btn').textContent = content[currentLang].index?.services?.consulting?.learnMore || 'View Work';
+            document.getElementById('schedule-btn').textContent = page.cta.scheduleButton;
 
-            // Update hero section
-            document.querySelector('.hero-title').textContent = page.hero.title;
-            document.querySelector('.hero-subtitle').textContent = page.hero.subtitle;
-            document.querySelectorAll('.hero-cta a')[0].textContent = page.hero.viewWork;
-            document.querySelectorAll('.hero-cta a')[1].textContent = page.hero.scheduleCall;
+            // Update services header from JSON
+            if (content[currentLang].indexLight.services) {
+                document.getElementById('services-title').textContent = content[currentLang].indexLight.services.title;
+                document.getElementById('services-subtitle').textContent = content[currentLang].indexLight.services.subtitle;
+            }
 
-            // Update services section
-            document.querySelectorAll('.section-title')[0].textContent = page.servicesSection.title;
-            document.querySelectorAll('.section-subtitle')[0].textContent = page.servicesSection.subtitle;
-
-            // Update each service card
-            const serviceCards = document.querySelectorAll('.service-card');
-            page.servicesSection.services.forEach((service, index) => {
-                if (serviceCards[index]) {
-                    serviceCards[index].querySelector('.service-title').textContent = service.title;
-                    serviceCards[index].querySelector('.service-description').textContent = service.description;
-                    const listItems = serviceCards[index].querySelectorAll('.service-list li');
-                    service.list.forEach((item, i) => {
-                        if (listItems[i]) listItems[i].textContent = item;
-                    });
-                    serviceCards[index].querySelector('.service-link').textContent = service.learnMore;
-                }
-            });
-
-            // Update features section
-            document.querySelectorAll('.section-title')[1].textContent = page.featuresSection.title;
-            document.querySelectorAll('.section-subtitle')[1].textContent = page.featuresSection.subtitle;
-
-            const featureItems = document.querySelectorAll('.feature-item');
-            page.featuresSection.features.forEach((feature, index) => {
-                if (featureItems[index]) {
-                    featureItems[index].querySelector('.feature-title').textContent = feature.title;
-                    featureItems[index].querySelector('.feature-text').textContent = feature.text;
-                }
-            });
-
-            // Update process section
-            document.querySelectorAll('.section-title')[2].textContent = page.processSection.title;
-            document.querySelectorAll('.section-subtitle')[2].textContent = page.processSection.subtitle;
-
-            const processSteps = document.querySelectorAll('.process-step');
-            page.processSection.steps.forEach((step, index) => {
-                if (processSteps[index]) {
-                    processSteps[index].querySelector('.step-title').textContent = step.title;
-                    processSteps[index].querySelector('.step-description').textContent = step.description;
-                }
-            });
-
-            // Update projects preview section
-            document.querySelectorAll('.section-title')[3].textContent = page.projectsPreview.title;
-            document.querySelectorAll('.section-subtitle')[3].textContent = page.projectsPreview.subtitle;
-
-            const projectCards = document.querySelectorAll('.project-preview-card');
-            page.projectsPreview.projects.forEach((project, index) => {
-                if (projectCards[index]) {
-                    projectCards[index].querySelector('.project-preview-title').textContent = project.title;
-                    projectCards[index].querySelector('.project-preview-desc').textContent = project.description;
-                    projectCards[index].querySelector('.project-preview-link').textContent = project.link;
-                }
-            });
-
-            document.querySelector('.projects-cta .btn-primary').textContent = page.projectsPreview.viewAllButton;
-
-            // Update team section
-            document.querySelectorAll('.section-title')[4].textContent = page.teamSection.title;
-            document.querySelectorAll('.section-subtitle')[4].textContent = page.teamSection.subtitle;
-            document.querySelector('.team-description').textContent = page.teamSection.description;
-
-            const statItems = document.querySelectorAll('.stat-item');
-            page.teamSection.stats.forEach((stat, index) => {
-                if (statItems[index]) {
-                    statItems[index].querySelector('.stat-number').textContent = stat.number;
-                    statItems[index].querySelector('.stat-label').textContent = stat.label;
-                }
-            });
-
-            // Update pricing section
-            document.querySelectorAll('.section-title')[5].textContent = page.pricingSection.title;
-            document.querySelectorAll('.section-subtitle')[5].textContent = page.pricingSection.subtitle;
-
-            const pricingCards = document.querySelectorAll('.pricing-card');
-            page.pricingSection.plans.forEach((plan, index) => {
-                if (pricingCards[index]) {
-                    pricingCards[index].querySelector('.pricing-title').textContent = plan.title;
-                    pricingCards[index].querySelector('.pricing-price').textContent = plan.price;
-                    pricingCards[index].querySelector('.pricing-description').textContent = plan.description;
-
-                    const badge = pricingCards[index].querySelector('.pricing-badge');
-                    if (badge && plan.badge) {
-                        badge.textContent = plan.badge;
+            if (content[currentLang].index && content[currentLang].index.services) {
+                const services = content[currentLang].index.services;
+                const serviceOrder = ['consulting', 'family', 'corporate', 'foreigners'];
+                
+                const cards = document.querySelectorAll('.service-card');
+                serviceOrder.forEach((key, idx) => {
+                    if (services[key] && cards[idx]) {
+                        const service = services[key];
+                        cards[idx].querySelector('.service-title').textContent = service.title;
+                        if (service.intro) {
+                            const descElement = cards[idx].querySelector('.service-description');
+                            if (descElement) descElement.textContent = service.intro;
+                        }
+                        const items = cards[idx].querySelectorAll('.service-list li');
+                        service.items.forEach((item, i) => {
+                            if (items[i]) {
+                                items[i].innerHTML = `<strong>${item.highlight}</strong> <span>${item.text}</span>`;
+                            }
+                        });
                     }
+                });
+            }
 
-                    const features = pricingCards[index].querySelectorAll('.pricing-features li');
-                    plan.features.forEach((feature, i) => {
-                        if (features[i]) features[i].textContent = feature;
+            // Update Service Types Section
+            if (content[currentLang].indexLight && content[currentLang].indexLight.serviceTypes) {
+                const serviceTypes = content[currentLang].indexLight.serviceTypes;
+                const grid = document.getElementById('service-types-grid');
+                grid.innerHTML = '';
+                
+                document.getElementById('service-types-title').textContent = serviceTypes.title;
+                document.getElementById('service-types-subtitle').textContent = serviceTypes.subtitle || 'Choisissez la formule adaptée à vos besoins';
+                
+                const plans = ['consultation', 'project', 'retainer'];
+                plans.forEach(plan => {
+                    if (serviceTypes.plans && serviceTypes.plans[plan]) {
+                        const planData = serviceTypes.plans[plan];
+                        const card = document.createElement('div');
+                        card.className = 'service-type-card';
+                        
+                        let bulletsHtml = '';
+                        if (planData.bullets && Array.isArray(planData.bullets)) {
+                            bulletsHtml = planData.bullets.map(bullet => `<li>${bullet}</li>`).join('');
+                        }
+                        
+                        card.innerHTML = `
+                            <h3>${planData.title}</h3>
+                            <ul>${bulletsHtml}</ul>
+                        `;
+                        grid.appendChild(card);
+                    }
+                });
+            }
+
+            // Update Features Section
+            if (content[currentLang].indexLight && content[currentLang].indexLight.features) {
+                const features = content[currentLang].indexLight.features;
+                document.getElementById('about-title').textContent = features.title;
+                document.getElementById('about-subtitle').textContent = features.subtitle;
+                
+                const featureItems = document.querySelectorAll('.feature-item');
+                features.items.forEach((item, idx) => {
+                    if (featureItems[idx]) {
+                        featureItems[idx].querySelector('.feature-title').textContent = item.title;
+                        featureItems[idx].querySelector('.feature-text').textContent = item.text;
+                    }
+                });
+            }
+
+            // Update CTA/Team Section
+            if (content[currentLang].indexLight && content[currentLang].indexLight.cta) {
+                const cta = content[currentLang].indexLight.cta;
+                document.getElementById('cta-ready-title').textContent = cta.readyTitle || cta.title;
+                document.getElementById('cta-ready-subtitle').textContent = cta.readySubtitle;
+                document.getElementById('cta-description').textContent = cta.description;
+                
+                if (cta.stats) {
+                    document.getElementById('stat-1-label').textContent = cta.stats.experience;
+                    document.getElementById('stat-2-label').textContent = cta.stats.confidentiality;
+                    document.getElementById('stat-3-label').textContent = cta.stats.languages;
+                }
+                
+                // Update contact button text
+                if (cta.contactButton) {
+                    document.getElementById('contact-btn-text').textContent = cta.contactButton;
+                }
+            }
+
+            // Update Contact Section
+            if (content[currentLang].indexLight && content[currentLang].indexLight.contact) {
+                const contactData = content[currentLang].indexLight.contact;
+                document.getElementById('contact-title').textContent = contactData.title;
+                document.getElementById('contact-subtitle').textContent = contactData.subtitle;
+                
+                // Update contact options
+                document.getElementById('contact-option-1').textContent = contactData.consultationTitle;
+                document.getElementById('contact-option-1-desc').textContent = contactData.consultationDesc;
+                document.getElementById('contact-feature-1').textContent = contactData.consultationFeatures[0];
+                document.getElementById('contact-feature-2').textContent = contactData.consultationFeatures[1];
+                document.getElementById('contact-feature-3').textContent = contactData.consultationFeatures[2];
+                
+                document.getElementById('contact-option-2').textContent = contactData.emailTitle;
+                document.getElementById('contact-option-2-desc').textContent = contactData.emailDesc;
+                document.getElementById('contact-badge').textContent = contactData.emailBadge;
+                document.getElementById('contact-email-1').textContent = contactData.emailFeatures[0];
+                document.getElementById('contact-email-2').textContent = contactData.emailFeatures[1];
+                document.getElementById('contact-email-3').textContent = contactData.emailFeatures[2];
+                
+                document.getElementById('contact-option-3').textContent = contactData.phoneTitle;
+                document.getElementById('contact-option-3-desc').textContent = contactData.phoneDesc;
+                document.getElementById('contact-phone-1').textContent = contactData.phoneFeatures[0];
+                document.getElementById('contact-phone-2').textContent = contactData.phoneFeatures[1];
+                document.getElementById('contact-phone-3').textContent = contactData.phoneFeatures[2];
+                
+                // Update button text for email and phone
+                if (contactData.emailButton) {
+                    document.getElementById('email-btn-text').textContent = contactData.emailButton;
+                }
+                if (contactData.phoneButton) {
+                    document.getElementById('phone-btn-text').textContent = contactData.phoneButton;
+                }
+            }
+
+            // Update footer links from JSON
+            if (page.footer) {
+                if (page.footer.services && page.footer.services.links) {
+                    page.footer.services.links.forEach((link, idx) => {
+                        const el = document.getElementById(`footer-service-${idx + 1}`);
+                        if (el) el.textContent = link;
                     });
-
-                    const button = pricingCards[index].querySelector('.btn-primary');
-                    if (button) button.textContent = plan.button;
                 }
-            });
-
-            // Update FAQ section
-            document.querySelectorAll('.section-title')[6].textContent = page.faqSection.title;
-            document.querySelectorAll('.section-subtitle')[6].textContent = page.faqSection.subtitle;
-
-            const faqItems = document.querySelectorAll('.faq-item');
-            page.faqSection.faqs.forEach((faq, index) => {
-                if (faqItems[index]) {
-                    faqItems[index].querySelector('.faq-question').textContent = faq.question;
-                    faqItems[index].querySelector('.faq-answer').textContent = faq.answer;
+                if (page.footer.company && page.footer.company.links) {
+                    page.footer.company.links.forEach((link, idx) => {
+                        const el = document.getElementById(`footer-company-${idx + 1}`);
+                        if (el) el.textContent = link;
+                    });
                 }
-            });
+            }
+
+            // Update Calendly widget
+            updateCalendlyWidget();
+
+            // Update Calendly button text
+            const calendlyBtn = document.getElementById('calendly-btn');
+            if (calendlyBtn && content[currentLang] && content[currentLang].indexLight && content[currentLang].indexLight.serviceTypes && content[currentLang].indexLight.serviceTypes.consultButton) {
+                calendlyBtn.textContent = content[currentLang].indexLight.serviceTypes.consultButton;
+            }
+
+            // Update theme toggle text
+            const themeText = isDarkMode ? 'Light Mode' : 'Dark Mode';
+            document.getElementById('theme-text').textContent = themeText;
 
             // Update footer
-            document.querySelector('.footer-description').textContent = page.footer.description;
+            document.getElementById('footer-desc').textContent = page.footer.description;
+            document.getElementById('footer-services-title').textContent = page.footer.services.title;
+            document.getElementById('footer-company-title').textContent = page.footer.company.title;
+            document.getElementById('footer-connect-title').textContent = page.footer.connect.title;
+            document.getElementById('footer-copyright').textContent = page.footer.copyright;
 
-            const footerColumns = document.querySelectorAll('.footer-column');
-            if (footerColumns[1]) {
-                footerColumns[1].querySelector('.footer-title').textContent = page.footer.services.title;
-                const serviceLinks = footerColumns[1].querySelectorAll('.footer-links li a');
-                page.footer.services.links.forEach((link, i) => {
-                    if (serviceLinks[i]) serviceLinks[i].textContent = link;
+            // Update language toggle
+            document.getElementById('lang-text').textContent = currentLang.toUpperCase();
+        }
+
+        function updateCalendlyWidget() {
+            const calendlyContainer = document.getElementById('calendly-consultation');
+            if (calendlyContainer) {
+                calendlyContainer.innerHTML = `<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/celinefunda-abuoglu/30min'});return false;" class="btn-primary" style="display: inline-block; width: 100%; text-align: center; padding: 12px 24px;">Planifier une consultation</a>`;
+            }
+        }
+
+        function setupLanguageDropdown() {
+            const langOptions = document.querySelectorAll('.lang-option');
+            langOptions.forEach(option => {
+                option.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    currentLang = this.getAttribute('data-lang');
+                    localStorage.setItem('language', currentLang);
+                    setLanguageInURL(currentLang);
+                    document.getElementById('lang-text').textContent = currentLang.toUpperCase();
+                    updateContent();
+                    closeLangDropdown();
                 });
-            }
-
-            if (footerColumns[2]) {
-                footerColumns[2].querySelector('.footer-title').textContent = page.footer.company.title;
-                const companyLinks = footerColumns[2].querySelectorAll('.footer-links li a');
-                page.footer.company.links.forEach((link, i) => {
-                    if (companyLinks[i]) companyLinks[i].textContent = link;
-                });
-            }
-
-            if (footerColumns[3]) {
-                footerColumns[3].querySelector('.footer-title').textContent = page.footer.connect.title;
-                const connectLinks = footerColumns[3].querySelectorAll('.footer-links li a');
-                page.footer.connect.links.forEach((link, i) => {
-                    if (connectLinks[i]) connectLinks[i].textContent = link;
-                });
-            }
-
-            document.querySelector('.footer-bottom p').textContent = page.footer.copyright;
-
-            // Update language toggle button to show NEXT language
-            let nextLang;
-            if (isFrenchUser) {
-                // French users: cycle only between EN and FR
-                nextLang = currentLang === 'en' ? 'fr' : 'en';
-            } else {
-                // Other users: full cycle EN -> AR -> TR -> FR -> EN
-                if (currentLang === 'en') {
-                    nextLang = 'ar';
-                } else if (currentLang === 'ar') {
-                    nextLang = 'tr';
-                } else if (currentLang === 'tr') {
-                    nextLang = 'fr';
-                } else {
-                    nextLang = 'en';
-                }
-            }
-            document.getElementById('lang-text').textContent = nextLang.toUpperCase();
-
-            // Update project links to include language parameter
-            document.querySelectorAll('a[href*="projects"]').forEach(link => {
-                const href = link.getAttribute('href');
-                if (href && !href.startsWith('http')) {
-                    const baseHref = href.split('?')[0];
-                    link.setAttribute('href', baseHref + '?lang=' + currentLang);
-                }
             });
         }
 
-        function toggleLanguage() {
-            if (isFrenchUser) {
-                // French users: cycle only between EN and FR
-                currentLang = currentLang === 'en' ? 'fr' : 'en';
-            } else {
-                // Other users: full cycle EN -> AR -> TR -> FR -> EN
-                if (currentLang === 'en') {
-                    currentLang = 'ar';
-                } else if (currentLang === 'ar') {
-                    currentLang = 'tr';
-                } else if (currentLang === 'tr') {
-                    currentLang = 'fr';
-                } else if (currentLang === 'fr') {
-                    currentLang = 'en';
-                }
-            }
-            localStorage.setItem('language', currentLang);
-            setLanguageInURL(currentLang);
-            updateContent();
+        function toggleLangDropdown() {
+            const menu = document.getElementById('lang-dropdown-menu');
+            menu.classList.toggle('show');
         }
 
-        // Theme toggle function
+        function closeLangDropdown() {
+            const menu = document.getElementById('lang-dropdown-menu');
+            menu.classList.remove('show');
+        }
+
         function toggleTheme() {
-            localStorage.setItem('theme', 'dark');
-            window.location.href = 'index-light.html?lang=' + currentLang;
+            isDarkMode = !isDarkMode;
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+            
+            if (isDarkMode) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-text').textContent = 'Light Mode';
+            } else {
+                document.body.classList.remove('dark-mode');
+                document.getElementById('theme-text').textContent = 'Dark Mode';
+            }
         }
 
-        // Smooth scroll for anchor links
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('lang-dropdown-container');
+            const menu = document.getElementById('lang-dropdown-menu');
+            if (dropdown && !dropdown.contains(event.target)) {
+                menu.classList.remove('show');
+            }
+        });
+
+        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
             });
         });
     </script>

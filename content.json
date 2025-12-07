@@ -1,0 +1,816 @@
+{
+  "languages": {
+    "fr": { "name": "Français", "code": "fr" },
+    "ar": { "name": "العربية", "code": "ar" },
+    "tr": { "name": "Türkçe", "code": "tr" }
+  },
+
+  "fr": {
+    "index": {
+      "meta": {
+        "title": "Cabinet Av. Funda Abuoglu | Excellence juridique à Istanbul",
+        "description": "Cabinet d’avocat à Istanbul dédié au conseil, au droit de la famille, au droit des sociétés et au droit des étrangers, offrant un accompagnement sur mesure en français, anglais et arabe."
+      },
+      "theme": {
+        "toggle": "Clair"
+      },
+      "hero": {
+        "title": "Cabinet Av. Funda Abuoglu",
+        "subtitle": "Le cabinet de Me Céline Funda Abuoglu Wehbe offre un accompagnement juridique sur mesure en consultation, droit de la famille, droit des sociétés et droit des étrangers, avec une approche confidentielle, rigoureuse et internationale.",
+        "projectsButton": "Nos dossiers",
+        "scheduleButton": "Prendre rendez-vous"
+      },
+      "services": {
+        "consulting": {
+          "title": "CONSEIL JURIDIQUE",
+          "intro": "Accompagnement juridique complet adapté à votre situation.",
+          "items": [
+            {
+              "highlight": "Consultations juridiques :",
+              "text": "Analyse de votre situation, identification des enjeux et définition d’une stratégie adaptée."
+            },
+            {
+              "highlight": "Conseil stratégique :",
+              "text": "Accompagnement continu pour sécuriser vos décisions personnelles et professionnelles."
+            },
+            {
+              "highlight": "Suivi personnalisé :",
+              "text": "Relation de confiance fondée sur l’écoute, la transparence et la disponibilité."
+            }
+          ],
+          "learnMore": "En savoir plus"
+        },
+        "family": {
+          "title": "DROIT DE LA FAMILLE",
+          "intro": "Accompagnement humain et confidentiel dans toutes les procédures familiales.",
+          "items": [
+            {
+              "highlight": "Divorce et séparation :",
+              "text": "Accompagnement humain et discret dans les procédures de divorce, séparation et liquidation du régime matrimonial."
+            },
+            {
+              "highlight": "Enfants et patrimoine :",
+              "text": "Conseil et représentation pour la garde d’enfants, la pension alimentaire et l’organisation patrimoniale."
+            },
+            {
+              "highlight": "Successions :",
+              "text": "Assistance dans la gestion des héritages et des conflits familiaux en Turquie et à l’international."
+            }
+          ],
+          "learnMore": "En savoir plus"
+        },
+        "corporate": {
+          "title": "DROIT DES SOCIÉTÉS",
+           "intro": "Conseils juridiques pour la création et la gestion sécurisée de votre entreprise.",
+          "items": [
+            {
+              "highlight": "Création de société :",
+              "text": "Structuration, constitution et accompagnement juridique de votre société en Turquie."
+            },
+            {
+              "highlight": "Contrats et gouvernance :",
+              "text": "Rédaction, revue et négociation de contrats commerciaux et pactes d’associés."
+            },
+            {
+              "highlight": "Accompagnement des entreprises :",
+              "text": "Conseil continu aux dirigeants et investisseurs pour sécuriser leurs opérations."
+            }
+          ],
+          "learnMore": "En savoir plus"
+        },
+        "foreigners": {
+          "title": "DROIT DES ÉTRANGERS",
+           "intro": "Assistance complète pour les résidents et investisseurs étrangers en Turquie.",
+          "items": [
+            {
+              "highlight": "Résidence et permis :",
+              "text": "Démarches de titre de séjour, permis de travail et renouvellements pour les étrangers en Turquie."
+            },
+            {
+              "highlight": "Naturalisation :",
+              "text": "Assistance dans les procédures de nationalité et de régularisation de situation."
+            },
+            {
+              "highlight": "Accompagnement des expatriés :",
+              "text": "Conseil complet pour les particuliers et investisseurs étrangers souhaitant s’installer ou investir en Turquie."
+            }
+          ],
+          "learnMore": "En savoir plus"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "namePlaceholder": "Votre nom",
+        "emailPlaceholder": "Votre e-mail",
+        "companyPlaceholder": "Votre société (le cas échéant)",
+        "messagePlaceholder": "Votre message",
+        "sendButton": "Envoyer",
+        "closeButton": "Fermer"
+      },
+      "back": "Retour"
+    },
+    "indexLight": {
+      "meta": {
+        "title": "Cabinet Av. Funda Abuoglu | Avocate à Istanbul",
+        "description": "Cabinet d’avocat à Istanbul offrant conseil, droit de la famille, droit des sociétés et droit des étrangers, avec une expertise multilingue et une approche sur mesure."
+      },
+      "header": {
+        "darkMode": "Mode sombre"
+      },
+      "hero": {
+        "title": "Un cabinet d’avocat au service de vos intérêts",
+        "subtitle": "Le Cabinet Av. Funda Abuoglu accompagne particuliers, familles, entreprises et étrangers en Turquie avec des solutions juridiques claires, efficaces et adaptées à chaque situation."
+      },
+      "cta": {
+        "title": "Prêt à nous confier votre dossier ?",
+        "description": "Expliquez votre situation et découvrez comment le cabinet peut vous accompagner dans vos démarches juridiques.",
+        "contactButton": "Nous contacter",
+        "scheduleButton": "Planifier une consultation"
+      },
+      "footer": {
+        "description": "Cabinet d’avocat à Istanbul, dédié au conseil, au droit de la famille, au droit des sociétés et au droit des étrangers.",
+        "services": {
+          "title": "Services",
+          "links": [
+            "Conseil juridique",
+            "Droit de la famille",
+            "Droit des sociétés",
+            "Droit des étrangers"
+          ]
+        },
+        "company": {
+          "title": "Cabinet",
+          "links": [
+            "Dossiers & références",
+            "À propos",
+            "Contact"
+          ]
+        },
+        "connect": {
+          "title": "Réseaux",
+          "links": [
+            "LinkedIn"
+          ]
+        },
+        "copyright": "© 2025 Cabinet Av. Funda Abuoglu. Tous droits réservés."
+      },
+      "services": {
+        "title": "Nos domaines de pratique",
+        "subtitle": "Des solutions juridiques sur mesure adaptées à vos besoins spécifiques"
+      },
+      "features": {
+        "title": "Pourquoi nous choisir",
+        "subtitle": "Excellence, confidentialité et expertise juridique reconnue",
+        "items": [
+          {
+            "title": "Expertise multijuridictionnelle",
+            "text": "Conseils en droit turc, français et international pour une vision globale de votre situation juridique."
+          },
+          {
+            "title": "Services multilingues",
+            "text": "Services juridiques en français, anglais, arabe et turc pour assurer une communication claire et transparente."
+          },
+          {
+            "title": "Confidentialité totale",
+            "text": "Respect strict du secret professionnel, fondement essentiel de notre pratique juridique."
+          },
+          {
+            "title": "Approche personnalisée",
+            "text": "Chaque client bénéficie d'une stratégie juridique conçue pour sa situation et ses objectifs spécifiques."
+          },
+          {
+            "title": "Expérience reconnue",
+            "text": "Années d'expérience professionnelle et portefeuille de clients internationaux satisfaits."
+          },
+          {
+            "title": "Disponibilité continue",
+            "text": "Suivi ininterrompu de vos dossiers du début à la fin de votre processus juridique."
+          }
+        ]
+      },
+      "cta": {
+        "readyTitle": "Prêt à nous confier votre dossier ?",
+        "readySubtitle": "Expliquez votre situation, ensemble nous évaluerons comment nous pouvons vous soutenir",
+        "description": "Le Cabinet Av. Funda Abuoglu offre des conseils juridiques complets et confidentiels. Que vous soyez un particulier, une famille, une entreprise ou un investisseur étranger, nous avons l'expertise pour résoudre vos problèmes juridiques.",
+        "contactButton": "Nous contacter",
+        "scheduleButton": "Planifier une consultation",
+        "stats": {
+          "experience": "Ans d'expérience",
+          "confidentiality": "Garantie de confidentialité",
+          "languages": "Langues de service"
+        }
+      },
+      "contact": {
+        "title": "Nous contacter",
+        "subtitle": "Consultation gratuite pour évaluer votre dossier",
+        "namePlaceholder": "Nom",
+        "emailPlaceholder": "E-mail",
+        "companyPlaceholder": "Société (facultatif)",
+        "messagePlaceholder": "Veuillez décrire votre situation",
+        "sendButton": "Envoyer",
+        "closeButton": "Fermer",
+        "consultationTitle": "Consultation directe",
+        "consultationDesc": "Discutez de votre situation avec notre équipe",
+        "consultationFeatures": [
+          "Évaluation gratuite initiale de votre dossier",
+          "Avis juridique initial",
+          "Plan d'action proposé"
+        ],
+        "emailTitle": "Par email",
+        "emailDesc": "Décrivez votre situation juridique par écrit",
+        "emailBadge": "Recommandé",
+        "emailFeatures": [
+          "Réponse rapide sous 24 heures",
+          "Analyse détaillée de votre situation",
+          "Estimation des honoraires"
+        ],
+        "phoneTitle": "Téléphone",
+        "phoneDesc": "Contact direct avec le cabinet",
+        "phoneFeatures": [
+          "Disponible du lundi au vendredi",
+          "Réponses à vos questions principales",
+          "Prise de rendez-vous facile"
+        ],
+        "emailButton": "Envoyer un email",
+        "phoneButton": "Appeler"
+      },
+      "back": "Retour",
+      "serviceTypes": {
+        "title": "Types de services juridiques",
+        "consultButton": "Planifier une consultation",
+        "plans": {
+          "consultation": {
+            "title": "Formule « Consultation juridique »",
+            "bullets": [
+              "Idéale pour une question précise, une première analyse de dossier ou une seconde opinion juridique.",
+              "Rendez-vous en cabinet ou à distance, avec étude de votre situation, identification des risques et recommandations claires et actionnables."
+            ]
+          },
+          "project": {
+            "title": "Formule « Mission au forfait » – par projet",
+            "bullets": [
+              "Parfaite pour un besoin structuré : procédure de divorce, création de société, rédaction ou négociation de contrats, démarches pour étrangers, etc.",
+              "Honoraires définis à l'avance selon l'ampleur du projet, incluant préparation du dossier, suivi rigoureux et points d'avancement planifiés."
+            ]
+          },
+          "retainer": {
+            "title": "Formule « Accompagnement mensuel » – abonnement juridique",
+            "bullets": [
+              "Conçue pour les entreprises, entrepreneurs, familles et expatriés ayant des besoins juridiques récurrents.",
+              "Honoraires mensuels avec nombre d'heures dédiées, priorité de traitement, réponses rapides et accompagnement continu pour sécuriser vos décisions au quotidien."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "ar": {
+    "index": {
+      "meta": {
+        "title": "مكتب المحامية فندا أبو أوغلو | تميّز قانوني في إسطنبول",
+        "description": "مكتب محاماة في إسطنبول يقدّم خدمات الاستشارة القانونية، قانون الأسرة، قانون الشركات وقانون الأجانب مع مرافقة مخصّصة بالفرنسية والإنجليزية والعربية."
+      },
+      "theme": {
+        "toggle": "فاتح"
+      },
+      "hero": {
+        "title": "مكتب المحامية فندا أبو أوغلو",
+        "subtitle": "يقدّم مكتب المحامية سيلين فندا أبو أوغلو وهبي مرافقة قانونية مخصّصة في الاستشارات، قانون الأسرة، قانون الشركات وقانون الأجانب، مع نهج يقوم على السرية والدقة والرؤية الدولية.",
+        "projectsButton": "قضايا مختارة",
+        "scheduleButton": "حجز موعد"
+      },
+      "services": {
+        "consulting": {
+          "title": "الاستشارة القانونية",
+          "intro": "مرافقة قانونية شاملة مصمّمة لوضعكم الخاص",
+          "items": [
+            {
+              "highlight": "استشارات قانونية:",
+              "text": "تحليل وضعكم القانوني، تحديد المخاطر والفرص، ووضع إستراتيجية مناسبة."
+            },
+            {
+              "highlight": "استراتيجية قانونية:",
+              "text": "مرافقة مستمرة لتأمين قراراتكم الشخصية والتجارية."
+            },
+            {
+              "highlight": "متابعة شخصية:",
+              "text": "علاقة ثقة قائمة على الإصغاء والشفافية والتوفّر."
+            }
+          ],
+          "learnMore": "المزيد"
+        },
+        "family": {
+          "title": "قانون الأسرة",
+          "intro": "مرافقة إنسانية وسرّية في جميع إجراءات الأسرة",
+          "items": [
+            {
+              "highlight": "الطلاق والانفصال:",
+              "text": "مرافقة إنسانية وسرّية في إجراءات الطلاق والانفصال وتقسيم الأموال."
+            },
+            {
+              "highlight": "الأطفال والثروة:",
+              "text": "تمثيل قانوني في قضايا الحضانة، النفقة وتنظيم الوضع المالي للعائلة."
+            },
+            {
+              "highlight": "التركات:",
+              "text": "مساعدة في إدارة التركات وتسوية النزاعات العائلية داخل تركيا وعلى المستوى الدولي."
+            }
+          ],
+          "learnMore": "المزيد"
+        },
+        "corporate": {
+          "title": "قانون الشركات",
+          "intro": "استشارات قانونية لإنشاء وإدارة شركتكم بأمان",
+          "items": [
+            {
+              "highlight": "تأسيس الشركات:",
+              "text": "تأسيس وهيكلة الشركات في تركيا مع مرافقة قانونية كاملة."
+            },
+            {
+              "highlight": "العقود والحوكمة:",
+              "text": "صياغة ومراجعة والتفاوض على العقود التجارية واتفاقيات الشركاء."
+            },
+            {
+              "highlight": "مرافقة رواد الأعمال:",
+              "text": "استشارات مستمرة لأصحاب الشركات والمستثمرين لتأمين عملياتهم."
+            }
+          ],
+          "learnMore": "المزيد"
+        },
+        "foreigners": {
+          "title": "قانون الأجانب",
+          "intro": "مساعدة متكاملة للمقيمين والمستثمرين الأجانب في تركيا",
+          "items": [
+            {
+              "highlight": "الإقامة وتصاريح العمل:",
+              "text": "إجراءات تصاريح الإقامة والعمل وتجديدها للأجانب في تركيا."
+            },
+            {
+              "highlight": "الجنسية:",
+              "text": "مرافقة في إجراءات الحصول على الجنسية وتسوية الوضع القانوني."
+            },
+            {
+              "highlight": "مرافقة المقيمين الأجانب:",
+              "text": "استشارات شاملة للأفراد والمستثمرين الأجانب الراغبين في الاستقرار أو الاستثمار في تركيا."
+            }
+          ],
+          "learnMore": "المزيد"
+        }
+      },
+      "contact": {
+        "title": "اتصل بنا",
+        "namePlaceholder": "الاسم",
+        "emailPlaceholder": "البريد الإلكتروني",
+        "companyPlaceholder": "الشركة (إن وجدت)",
+        "messagePlaceholder": "رسالتكم",
+        "sendButton": "إرسال",
+        "closeButton": "إغلاق"
+      },
+      "back": "رجوع"
+    },
+    "indexLight": {
+      "meta": {
+        "title": "مكتب المحامية فندا أبو أوغلو | محامية في إسطنبول",
+        "description": "مكتب محاماة في إسطنبول يقدّم خدمات الاستشارة القانونية، قانون الأسرة، قانون الشركات وقانون الأجانب مع خبرة متعددة اللغات ونهج مخصّص."
+      },
+      "header": {
+        "darkMode": "الوضع الداكن"
+      },
+      "hero": {
+        "title": "مكتب محاماة في خدمة مصالحكم",
+        "subtitle": "يرافقكم مكتب المحامية فندا أبو أوغلو – كأفراد وعائلات وشركات وأجانب في تركيا – بحلول قانونية واضحة وفعّالة ومصمّمة حسب احتياجاتكم."
+      },
+      "cta": {
+        "title": "هل أنتم مستعدون لعرض قضيتكم؟",
+        "description": "اشرحوا وضعكم القانوني وتعرّفوا على كيفية مرافقة المكتب لكم في جميع إجراءاتكم.",
+        "contactButton": "اتصل بنا",
+        "scheduleButton": "حجز استشارة"
+      },
+      "footer": {
+        "description": "مكتب محاماة في إسطنبول مكرّس للاستشارة القانونية، قانون الأسرة، قانون الشركات وقانون الأجانب.",
+        "services": {
+          "title": "الخدمات",
+          "links": [
+            "الاستشارة القانونية",
+            "قانون الأسرة",
+            "قانون الشركات",
+            "قانون الأجانب"
+          ]
+        },
+        "company": {
+          "title": "المكتب",
+          "links": [
+            "القضايا والخبرة",
+            "من نحن",
+            "اتصال"
+          ]
+        },
+        "connect": {
+          "title": "تابعونا",
+          "links": [
+            "LinkedIn"
+          ]
+        },
+        "copyright": "© 2025 مكتب المحامية فندا أبو أوغلو. جميع الحقوق محفوظة."
+      },
+      "contact": {
+        "title": "اتصل بنا",
+        "subtitle": "استشارة مجانية لتقييم ملفكم",
+        "namePlaceholder": "الاسم",
+        "emailPlaceholder": "البريد الإلكتروني",
+        "companyPlaceholder": "الشركة (اختياري)",
+        "messagePlaceholder": "يرجى شرح وضعكم",
+        "sendButton": "إرسال",
+        "closeButton": "إغلاق",
+        "consultationTitle": "استشارة مباشرة",
+        "consultationDesc": "ناقشوا وضعكم القانوني مع فريق المكتب",
+        "consultationFeatures": [
+          "تقييم مجاني أولي لملفكم",
+          "استشارة قانونية مبدئية",
+          "خطة عمل قانونية مقترحة"
+        ],
+        "emailTitle": "البريد الإلكتروني",
+        "emailDesc": "اشرحوا وضعكم القانوني كتابياً",
+        "emailBadge": "موصى به",
+        "emailFeatures": [
+          "رد سريع خلال 24 ساعة",
+          "تحليل مفصل لوضعكم القانوني",
+          "تقدير مبدئي للأتعاب"
+        ],
+        "phoneTitle": "الهاتف",
+        "phoneDesc": "اتصال مباشر مع المكتب",
+        "phoneFeatures": [
+          "متوفر من الإثنين إلى الجمعة",
+          "إجابات على أسئلتكم الأساسية",
+          "حجز موعد بكل سهولة"
+        ],
+        "emailButton": "إرسال بريد إلكتروني",
+        "phoneButton": "اتصال"
+      },
+      "back": "رجوع",
+      "services": {
+        "title": "مجالات ممارستنا",
+        "subtitle": "حلول قانونية مخصّصة تلائم احتياجاتكم المحددة"
+      },
+      "features": {
+        "title": "لماذا تختارون مكتبنا",
+        "subtitle": "تميّز، سرية، وخبرة قانونية معترف بها",
+        "items": [
+          {
+            "title": "خبرة متعددة الاختصاصات القضائية",
+            "text": "استشارات في القانون التركي والفرنسي والدولي لرؤية شاملة لوضعكم القانوني."
+          },
+          {
+            "title": "خدمات متعددة اللغات",
+            "text": "خدمات قانونية بالفرنسية والإنجليزية والعربية والتركية لضمان تواصل واضح وشفاف."
+          },
+          {
+            "title": "سرية تامة",
+            "text": "احترام صارم لسرية المهنة، باعتبارها ركيزة أساسية في ممارستنا القانونية."
+          },
+          {
+            "title": "نهج شخصي مخصّص",
+            "text": "يحصل كل موكل على إستراتيجية قانونية مصمّمة لوضعه الخاص وأهدافه العملية."
+          },
+          {
+            "title": "خبرة معترف بها",
+            "text": "سنوات من الممارسة وموكلون دوليون راضون في مختلف مجالات عمل المكتب."
+          },
+          {
+            "title": "توفر ومرافقة مستمرة",
+            "text": "مرافقة متواصلة من بداية إجراءاتكم القانونية حتى نهايتها."
+          }
+        ]
+      },
+      "cta": {
+        "title": "هل أنتم مستعدون لمناقشة ملفكم؟",
+        "readyTitle": "هل أنتم مستعدون لإسناد ملفكم إلينا؟",
+        "readySubtitle": "اشرحوا وضعكم القانوني لنتمكن معًا من تقييم أفضل سبل المرافقة والدعم.",
+        "description": "يقدّم مكتب المحامية فندا أبو أوغلو مرافقة قانونية شاملة وسرّية. سواء كنتم أفرادًا، عائلة، شركة أو مستثمرًا أجنبيًا، نمتلك المعرفة والخبرة اللازمة لمعالجة قضاياكم القانونية بأعلى مستوى من الاحتراف.",
+        "contactButton": "اتصلوا بنا",
+        "scheduleButton": "احجزوا موعدًا",
+        "stats": {
+          "experience": "سنوات من الخبرة",
+          "confidentiality": "ضمان السرية",
+          "languages": "اللغات المتاحة للخدمة"
+        }
+      },
+      "serviceTypes": {
+        "title": "أنواع الخدمات القانونية",
+        "subtitle": "اختاروا الصيغة الأنسب لاحتياجاتكم",
+        "consultButton": "جدولة استشارة",
+        "plans": {
+          "consultation": {
+            "title": "صيغة « الاستشارة القانونية »",
+            "bullets": [
+              "مثالية لطرح سؤال محدّد، أو للحصول على تحليل أولي للملف، أو للحصول على رأي قانوني ثانٍ.",
+              "موعد في المكتب أو عن بُعد، مع دراسة وضعكم القانوني، وتحديد المخاطر، وتقديم توصيات واضحة وقابلة للتطبيق."
+            ]
+          },
+          "project": {
+            "title": "صيغة « مهمة برسوم مقطوعة » – حسب المشروع",
+            "bullets": [
+              "مناسبة تماماً للاحتياجات المحددة: إجراءات الطلاق، تأسيس شركة، صياغة أو تفاوض على العقود، إجراءات الأجانب، وغير ذلك.",
+              "أتعاب متّفق عليها مسبقاً حسب حجم وتعقيد المشروع، وتشمل إعداد الملف، والمتابعة الدقيقة، واجتماعات دورية لمناقشة التقدّم."
+            ]
+          },
+          "retainer": {
+            "title": "صيغة « مرافقة شهرية » – اشتراك قانوني",
+            "bullets": [
+              "مصمّمة للشركات وروّاد الأعمال والعائلات والمقيمين الأجانب الذين لديهم احتياجات قانونية متكرّرة.",
+              "أتعاب شهرية تشمل عدداً محدداً من الساعات، وأولوية في معالجة الطلبات، وردوداً سريعة ومرافقة مستمرة لتأمين قراراتكم اليومية."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "tr": {
+    "index": {
+      "meta": {
+        "title": "Av. Funda Abuoglu Hukuk Bürosu | İstanbul’da Hukuki Uzmanlık",
+        "description": "İstanbul’da faaliyet gösteren hukuk bürosu; danışmanlık, aile hukuku, şirketler hukuku ve yabancılar hukuku alanlarında Fransızca, İngilizce ve Arapça destek sunar."
+      },
+      "theme": {
+        "toggle": "Açık"
+      },
+      "hero": {
+        "title": "Av. Funda Abuoglu Hukuk Bürosu",
+        "subtitle": "Av. Céline Funda Abuoglu Wehbe; danışmanlık, aile hukuku, şirketler hukuku ve yabancılar hukuku alanlarında gizlilik, titizlik ve uluslararası bakış açısıyla kişiye özel hukuki hizmetler sunar.",
+        "projectsButton": "Öne çıkan dosyalar",
+        "scheduleButton": "Randevu al"
+      },
+      "services": {
+        "consulting": {
+          "title": "HUKUKİ DANIŞMANLIK",
+          "intro": "Durumunuza uyarlanmış kapsamlı hukuki danışmanlık",
+          "items": [
+            {
+              "highlight": "Hukuki danışmanlık:",
+              "text": "Durumunuzun ayrıntılı analizi, risk ve fırsatların belirlenmesi ile uygun stratejinin oluşturulması."
+            },
+            {
+              "highlight": "Stratejik rehberlik:",
+              "text": "Kişisel ve ticari kararlarınızı güvence altına almak için sürekli danışmanlık."
+            },
+            {
+              "highlight": "Kişiye özel takip:",
+              "text": "Güven, şeffaflık ve ulaşılabilirlik üzerine kurulu uzun vadeli ilişki."
+            }
+          ],
+          "learnMore": "Detaylı bilgi"
+        },
+        "family": {
+          "title": "AİLE HUKUKU",
+          "intro": "Ailevi süreçlerde özenli, gizli ve insan odaklı destek",
+          "items": [
+            {
+              "highlight": "Boşanma ve ayrılık:",
+              "text": "Boşanma, ayrılık ve mal rejiminin tasfiyesi süreçlerinde özenli ve gizli destek."
+            },
+            {
+              "highlight": "Çocuklar ve malvarlığı:",
+              "text": "Vesayet, velayet, nafaka ve aile malvarlığının düzenlenmesi konularında temsil."
+            },
+            {
+              "highlight": "Miras hukuku:",
+              "text": "Türkiye’de ve uluslararası düzeyde mirasların yönetimi ve aile içi uyuşmazlıkların çözümü."
+            }
+          ],
+          "learnMore": "Detaylı bilgi"
+        },
+        "corporate": {
+          "title": "ŞİRKETLER HUKUKU",
+          "intro": "Şirketinizin kuruluşu ve yönetimi için hukuki rehberlik",
+          "items": [
+            {
+              "highlight": "Şirket kuruluşu:",
+              "text": "Türkiye’de şirketin kuruluşu, yapılandırılması ve sürekli hukuki desteği."
+            },
+            {
+              "highlight": "Sözleşmeler ve yönetim:",
+              "text": "Ticari sözleşmelerin ve ortaklık anlaşmalarının hazırlanması, incelenmesi ve müzakere edilmesi."
+            },
+            {
+              "highlight": "İş dünyasına eşlik:",
+              "text": "Yöneticiler ve yatırımcılar için işlemlerini güvenceye alan kapsamlı danışmanlık."
+            }
+          ],
+          "learnMore": "Detaylı bilgi"
+        },
+        "foreigners": {
+          "title": "YABANCILAR HUKUKU",
+          "intro": "Türkiye'deki yabancı yerleşik ve yatırımcılara tam kapsamlı destek",
+          "items": [
+            {
+              "highlight": "İkamet ve çalışma izinleri:",
+              "text": "Türkiye’de yabancılar için oturma ve çalışma izinlerinin alınması ve yenilenmesi."
+            },
+            {
+              "highlight": "Vatandaşlık işlemleri:",
+              "text": "Vatandaşlık başvuruları ve hukuki durumun düzenlenmesi süreçlerinde destek."
+            },
+            {
+              "highlight": "Yabancı ve yatırımcılara destek:",
+              "text": "Türkiye’ye yerleşmek veya yatırım yapmak isteyen yabancı gerçek ve tüzel kişilere kapsamlı danışmanlık."
+            }
+          ],
+          "learnMore": "Detaylı bilgi"
+        }
+      },
+      "contact": {
+        "title": "İletişim",
+        "subtitle": "Dosyanızın değerlendirilmesi için ücretsiz ön görüşme",
+        "namePlaceholder": "Adınız",
+        "emailPlaceholder": "E-posta adresiniz",
+        "companyPlaceholder": "Şirketiniz (varsa)",
+        "messagePlaceholder": "Mesajınız",
+        "sendButton": "Gönder",
+        "closeButton": "Kapat",
+        "consultationTitle": "Doğrudan danışma",
+        "consultationDesc": "Hukuki durumunuzu ekibimizle değerlendirin",
+        "consultationFeatures": [
+          "Dosyanız için ücretsiz ilk değerlendirme",
+          "Başlangıç düzeyinde hukuki görüş",
+          "Önerilen yol haritası"
+        ],
+        "emailTitle": "E-posta",
+        "emailDesc": "Durumunuzu yazılı olarak ayrıntılı şekilde iletin",
+        "emailBadge": "Önerilir",
+        "emailFeatures": [
+          "24 saat içinde hızlı yanıt",
+          "Vakanızın ayrıntılı analizi",
+          "Tahmini ücretlendirme"
+        ],
+        "phoneTitle": "Telefon",
+        "phoneDesc": "Büromuzla doğrudan iletişim",
+        "phoneFeatures": [
+          "Pazartesi–Cuma günleri arasında ulaşılabilir",
+          "Sorularınıza anında yanıt",
+          "Hızlı ve kolay randevu planlama"
+        ],
+        "emailButton": "E-posta Gönder",
+        "phoneButton": "Ara"
+      },
+      "back": "Geri"
+    },
+    "indexLight": {
+      "meta": {
+        "title": "Av. Funda Abuoglu Hukuk Bürosu | İstanbul",
+        "description": "Danışmanlık, aile hukuku, şirketler hukuku ve yabancılar hukuku alanlarında çok dilli ve kişiye özel hizmet sunan İstanbul merkezli hukuk bürosu."
+      },
+      "header": {
+        "darkMode": "Karanlık mod"
+      },
+      "hero": {
+        "title": "Haklarınızı koruyan hukuk bürosu",
+        "subtitle": "Av. Funda Abuoglu, Türkiye’deki bireyler, aileler, şirketler ve yabancılar için net, etkin ve ihtiyaca uygun hukuki çözümler geliştirir."
+      },
+      "cta": {
+        "title": "Dosyanız için görüşmeye hazır mısınız?",
+        "description": "Hukuki durumunuzu bizimle paylaşın; büromuzun sizi nasıl destekleyebileceğini birlikte değerlendirelim.",
+        "contactButton": "Bize ulaşın",
+        "scheduleButton": "Görüşme planla"
+      },
+      "footer": {
+        "description": "İstanbul’da danışmanlık, aile hukuku, şirketler hukuku ve yabancılar hukuku alanlarında faaliyet gösteren hukuk bürosu.",
+        "services": {
+          "title": "Hizmetler",
+          "links": [
+            "Hukuki danışmanlık",
+            "Aile hukuku",
+            "Şirketler hukuku",
+            "Yabancılar hukuku"
+          ]
+        },
+        "company": {
+          "title": "Büro",
+          "links": [
+            "Dosyalar ve referanslar",
+            "Hakkımızda",
+            "İletişim"
+          ]
+        },
+        "connect": {
+          "title": "Bağlantılar",
+          "links": [
+            "LinkedIn"
+          ]
+        },
+        "copyright": "© 2025 Av. Funda Abuoglu Hukuk Bürosu. Tüm hakları saklıdır."
+      },
+      "contact": {
+        "title": "Bize ulaşın",
+        "subtitle": "Dosyanızın değerlendirilmesi için ücretsiz ön görüşme",
+        "namePlaceholder": "Adınız",
+        "emailPlaceholder": "E-posta",
+        "companyPlaceholder": "Şirket (isteğe bağlı)",
+        "messagePlaceholder": "Lütfen durumunuzu kısca açıklayın",
+        "sendButton": "Gönder",
+        "closeButton": "Kapat",
+        "consultationTitle": "Doğrudan danışma",
+        "consultationDesc": "Hukuki durumunuzu ekibimizle değerlendirin",
+        "consultationFeatures": [
+          "Dosyanız için ücretsiz ilk değerlendirme",
+          "Başlangıç düzeyinde hukuki görüş",
+          "Önerilen yol haritası"
+        ],
+        "emailTitle": "E-posta",
+        "emailDesc": "Durumunuzu yazılı olarak ayrıntılı şekilde iletin",
+        "emailBadge": "Önerilir",
+        "emailFeatures": [
+          "24 saat içinde hızlı yanıt",
+          "Vakanızın ayrıntılı analizi",
+          "Tahmini ücretlendirme"
+        ],
+        "phoneTitle": "Telefon",
+        "phoneDesc": "Büromuzla doğrudan iletişim",
+        "phoneFeatures": [
+          "Pazartesi–Cuma günleri arasında ulaşılabilir",
+          "Sorularınıza anında yanıt",
+          "Hızlı ve kolay randevu planlama"
+        ],
+        "emailButton": "E-posta Gönder",
+        "phoneButton": "Ara"
+      },
+      "back": "Geri",
+      "services": {
+        "title": "Uygulama alanlarımız",
+        "subtitle": "Özel ihtiyaçlarınıza göre şekillenen hukuki çözümler"
+      },
+      "features": {
+        "title": "Neden büromuzu seçmelisiniz?",
+        "subtitle": "Mükemmellik, gizlilik ve kanıtlanmış hukukî uzmanlık",
+        "items": [
+          {
+            "title": "Çoklu hukuk sistemi uzmanlığı",
+            "text": "Türk, Fransız ve uluslararası hukuk alanlarında danışmanlık ile durumunuza kapsamlı bir bakış."
+          },
+          {
+            "title": "Çok dilli hizmet",
+            "text": "Fransızca, İngilizce, Arapça ve Türkçe dillerinde hizmet ile şeffaf ve net iletişim."
+          },
+          {
+            "title": "Mutlak gizlilik",
+            "text": "Meslek sırrına sıkı sıkıya bağlılık; hukuk pratiğimizin temel dayanaklarından biridir."
+          },
+          {
+            "title": "Kişiye özel yaklaşım",
+            "text": "Her müvekkile, kendine özgü durumuna ve hedeflerine uygun bir hukuki strateji sunulur."
+          },
+          {
+            "title": "Kanıtlanmış tecrübe",
+            "text": "Uzun yıllara dayanan mesleki deneyim ve farklı alanlarda memnun uluslararası müvekkil portföyü."
+          },
+          {
+            "title": "Sürekli ulaşılabilirlik",
+            "text": "Hukuki sürecinizin başından sonuna kadar kesintisiz takip ve destek."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Dosyanız için görüşmeye hazır mısınız?",
+        "readyTitle": "Dosyanızı bize emanet etmeye hazır mısınız?",
+        "readySubtitle": "Durumunuzu açıklayın, size nasıl destek olabileceğimizi birlikte değerlendirelim",
+        "description": "Av. Funda Abuoglu Hukuk Bürosu, kapsamlı ve gizli hukuki danışmanlık sunar. İster birey, ister aile, şirket ya da yabancı yatırımcı olun, hukuki sorunlarınızı çözmek için gerekli bilgi ve deneyime sahibiz.",
+        "contactButton": "Bize ulaşın",
+        "scheduleButton": "Görüşme planla",
+        "stats": {
+          "experience": "Deneyim yılı",
+          "confidentiality": "Gizlilik garantisi",
+          "languages": "Hizmet verilen diller"
+        }
+      },
+      "serviceTypes": {
+        "title": "Hukuki hizmet türleri",
+        "subtitle": "İhtiyaçlarınıza en uygun hizmet şeklini seçin",
+        "consultButton": "Danışmanlık rezervasyonu",
+        "plans": {
+          "consultation": {
+            "title": "\"Hukuki danışmanlık\" paketi",
+            "bullets": [
+              "Belirli bir soru, dosyanızın ilk analizi veya ikinci bir hukuki görüş için idealdir.",
+              "Ofiste veya uzaktan gerçekleştirilen görüşmelerle durumunuz ayrıntılı olarak incelenir, riskler belirlenir ve net, uygulanabilir öneriler sunulur."
+            ]
+          },
+          "project": {
+            "title": "\"Proje bazlı sabit ücret\" paketi",
+            "bullets": [
+              "Boşanma davası, şirket kuruluşu, sözleşme hazırlanması veya müzakeresi, yabancılar için işlemler gibi belirgin ihtiyaçlar için uygundur.",
+              "Projenin kapsam ve karmaşıklığına göre önceden belirlenen ücret, dosyanın hazırlanmasını, düzenli takibi ve planlı ilerleme toplantılarını kapsar."
+            ]
+          },
+          "retainer": {
+            "title": "\"Aylık hukuki danışmanlık\" aboneliği",
+            "bullets": [
+              "Düzenli hukuki desteğe ihtiyaç duyan şirketler, girişimciler, aileler ve yabancılar için tasarlanmıştır.",
+              "Aylık sabit ücret; belirli sayıda saat, öncelikli dosya yönetimi, hızlı geri dönüş ve günlük kararlarınızı güvence altına alan sürekli hukuki destek içerir."
+            ]
+          }
+        }
+      }
+    }
+  }
+}

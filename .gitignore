@@ -1,0 +1,7 @@
+# Ignore common temporary, system, editor and build files
+
+# Markdown (kept by default in this repo) - already ignored
+*.md
+*.txt
+projects-light-old.html
+index-old.html

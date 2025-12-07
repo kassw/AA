@@ -1,40 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Projects | Core Innovation Services</title>
-    <meta name="description" content="Explore our portfolio of innovative technology solutions including Web3 applications, DApps, and AI-powered platforms.">
-    <meta name="keywords" content="technology solutions, web development, Web3 projects, blockchain, AI applications">
-    <meta name="author" content="Core Innovation Services">
+    <title id="page-title">Dossiers & Références | Cabinet Av. Funda Abuoglu</title>
+    <meta name="description" id="page-description" content="Dossiers traités avec succès dans tous nos domaines de compétence.">
+    <meta name="keywords" content="dossiers juridiques, références, cas de succès, cabinet avocat">
+    <meta name="author" content="Cabinet Av. Funda Abuoglu">
     <meta name="robots" content="index, follow">
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="projects-light.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style-light.css">
+      <link rel="stylesheet" href="projects-light.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
+    <!-- Calendly Widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    
     <!-- Open Graph Metadata -->
-    <meta property="og:title" content="Our Projects | Core Innovation Services">
-    <meta property="og:description" content="Explore our portfolio of innovative technology solutions">
-    <meta property="og:image" content="https://cis-dapp.com/logo2.png">
-    <meta property="og:url" content="https://www.cis-dapp.com/projects">
+    <meta property="og:title" content="Dossiers & Références | Cabinet Av. Funda Abuoglu">
+    <meta property="og:description" content="Dossiers traités avec succès dans tous nos domaines de compétence.">
+    <meta property="og:image" content="logo.png">
     <meta property="og:type" content="website">
 </head>
 <body>
-    <!-- Header -->
+<!-- Header -->
     <header class="header">
         <div class="header-container">
-            <a href="index.html" id="home-link">
-                <img src="logo.png" alt="Core Innovation Services Logo" class="header-logo" id="header-logo">
-            </a>
+            <!-- Stylish AA Logo with Text -->
+            <div class="logo-container">
+               <img src="logo.png" style="max-width: 50px;" alt="Cabinet Av. Funda Abuoglu" class="logo-image" id="header-logo">
+               
+                <div class="logo-text">
+                    <div class="logo-brand">Abuoglu Avocats</div>
+                </div>
+            </div>
             <div style="display: flex; gap: 10px; align-items: center;">
-                <button class="lang-toggle-header" onclick="toggleLanguage()" id="lang-toggle">
-                    <span id="lang-text">EN</span>
-                </button>
+                <!-- Language Dropdown -->
+                <div class="lang-dropdown-container">
+                    <button class="lang-toggle-header" onclick="toggleLangDropdown()" id="lang-toggle">
+                        <span id="lang-text">FR</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="lang-dropdown-menu" id="lang-dropdown-menu">
+                        <button class="lang-option" data-lang="fr">Français</button>
+                        <button class="lang-option" data-lang="ar">العربية</button>
+                        <button class="lang-option" data-lang="tr">Türkçe</button>
+                    </div>
+                </div>
+                <!-- Theme Toggle -->
                 <button class="theme-toggle-header" onclick="toggleTheme()" id="theme-toggle">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <span id="theme-text">Dark Mode</span>
+                    <span id="theme-toggle-text">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span id="theme-text">Dark Mode</span>
+                    </span>
                 </button>
             </div>
         </div>
@@ -43,87 +65,80 @@
     <!-- Page Hero -->
     <section class="page-hero">
         <div class="page-hero-container">
-            <a href="index.html" class="back-link" id="back-link">← Back to Home</a>
-            <h1 class="page-title" id="page-title">Our Projects</h1>
-            <p class="page-subtitle" id="page-subtitle">Innovative solutions we've delivered for our clients</p>
+            <a href="index.html" class="back-link" id="back-link">← Retour à l'accueil</a>
+            <h1 class="page-title" id="page-title-hero">Dossiers & Références</h1>
+            <p class="page-subtitle" id="page-subtitle">Succès et accompagnements dans tous nos domaines de compétence</p>
         </div>
     </section>
 
     <!-- Projects Masonry Grid -->
     <section class="projects-section">
         <div class="projects-masonry-container">
-            <div class="projects-masonry">
-                <!-- Project 1 - BriSaKa -->
+            <div class="projects-masonry" id="projects-container">
+                <!-- Project 1 - Conseil Juridique -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="BriSaKa.png" alt="BriSaKa Protocol" class="project-img">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&q=80" alt="Cas de Conseil Juridique" class="project-img">
                     </div>
                     <div class="project-content">
-                        <h2 class="project-title">BriSaKa Protocol</h2>
-                        <p class="project-category">Web3 Ecosystem</p>
-                        <p class="project-description">Mission is to build an accessible, Web3-friendly ecosystem—from mini-games to a full social media platform. Creating an innovative space where users can engage, play, and connect in the decentralized web.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Web3</span>
-                            <span class="project-tag">Social Platform</span>
-                            <span class="project-tag">Gaming</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://brisaka.com" target="_blank" class="project-link-btn">
-                                Visit Website
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+                        <h2 class="project-title" id="project-1-title">Stratégie Juridique pour Entrepreneur</h2>
+                        <p class="project-category" id="project-1-cat">Conseil Juridique</p>
+                        <p class="project-description" id="project-1-desc">Accompagnement d'un entrepreneur français dans la structuration de ses activités en Turquie. Analyse des risques, optimisation fiscale et mise en place d'une stratégie de conformité.</p>
+                        <div class="project-tags" id="project-1-tags">
+                            <span class="project-tag">Conseil</span>
+                            <span class="project-tag">Fiscalité</span>
+                            <span class="project-tag">Structuration</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2 - OXECHAIN -->
+                <!-- Project 2 - Droit de la Famille -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="oxe.png" alt="OXECHAIN APP" class="project-img">
+                        <img src="https://images.unsplash.com/photo-1491438639410-acada59a3033?w=500&q=80" alt="Cas Droit de la Famille" class="project-img">
                     </div>
                     <div class="project-content">
-                        <h2 class="project-title">OXECHAIN APP</h2>
-                        <p class="project-category">Web3 Application</p>
-                        <p class="project-description">Web3 app with User Rewards, in-app games & subscription based for discounted partners. A comprehensive platform that incentivizes user engagement through rewards and gamification.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Blockchain</span>
-                            <span class="project-tag">Rewards</span>
-                            <span class="project-tag">Subscription</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://oxechain.com" target="_blank" class="project-link-btn">
-                                Visit Website
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+                        <h2 class="project-title" id="project-2-title">Procédure de Divorce International</h2>
+                        <p class="project-category" id="project-2-cat">Droit de la Famille</p>
+                        <p class="project-description" id="project-2-desc">Représentation d'une cliente dans une procédure de divorce complexe impliquant plusieurs juridictions (France-Turquie). Négociation du partage des biens et arrangements de garde d'enfants.</p>
+                        <div class="project-tags" id="project-2-tags">
+                            <span class="project-tag">Divorce</span>
+                            <span class="project-tag">International</span>
+                            <span class="project-tag">Enfants</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3 - PAGOL AI -->
+                <!-- Project 3 - Droit des Affaires -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="pagol.png" alt="PAGOL AI" class="project-img">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&q=80" alt="Cas Droit des Affaires" class="project-img">
                     </div>
                     <div class="project-content">
-                        <h2 class="project-title">PAGOL AI</h2>
-                        <p class="project-category">AI Platform</p>
-                        <p class="project-description">Transforms ideas into digital solutions, empowering innovators to build the future. An AI-powered platform that helps businesses and creators bring their visions to life through intelligent automation and design.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">AI</span>
-                            <span class="project-tag">Automation</span>
-                            <span class="project-tag">Innovation</span>
+                        <h2 class="project-title" id="project-3-title">Constitution et Gouvernance d'une LLC</h2>
+                        <p class="project-category" id="project-3-cat">Droit des Sociétés</p>
+                        <p class="project-description" id="project-3-desc">Création et structuration juridique d'une société à responsabilité limitée en Turquie pour des investisseurs expatriés. Mise en place de la gouvernance d'entreprise et des contrats commerciaux.</p>
+                        <div class="project-tags" id="project-3-tags">
+                            <span class="project-tag">Création</span>
+                            <span class="project-tag">Gouvernance</span>
+                            <span class="project-tag">Contrats</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://pagol.ai" target="_blank" class="project-link-btn">
-                                Visit Website
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 - Droit des Étrangers -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=500&q=80" alt="Cas Droit des Étrangers" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title" id="project-4-title">Visa de Résidence Long Terme pour Investisseur</h2>
+                        <p class="project-category" id="project-4-cat">Droit des Étrangers</p>
+                        <p class="project-description" id="project-4-desc">Dossier complet de demande de titre de séjour pour un investisseur étranger, incluant l'achat immobilier, les permis de travail et la régularisation familiale. Résultat positif après 6 mois.</p>
+                        <div class="project-tags" id="project-4-tags">
+                            <span class="project-tag">Résidence</span>
+                            <span class="project-tag">Investisseur</span>
+                            <span class="project-tag">Immobilier</span>
                         </div>
                     </div>
                 </div>
@@ -134,15 +149,11 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="cta-container">
-            <h2 class="cta-title">Ready to Start Your Project?</h2>
-            <p class="cta-description">Let's discuss how we can help bring your vision to life with innovative technology solutions.</p>
+            <h2 class="cta-title" id="cta-title">Prêt à confier votre dossier ?</h2>
+            <p class="cta-description" id="cta-desc">Nous sommes disponibles pour discuter de votre situation juridique et vous proposer une stratégie adaptée.</p>
             <div class="cta-buttons">
-                <a href="mailto:bd@cis-dapp.com?subject=Project Inquiry&body=Hello, I would like to discuss a project with Core Innovation Services." class="btn-secondary">Contact Us</a>
-                <!-- Calendly link widget begin -->
-                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                <a class="btn-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rd-cis-dapp/30min'});return false;">Schedule call</a>
-                <!-- Calendly link widget end -->
+                <a href="mailto:contact@abuoglu-legal.com?subject=Demande de consultation" class="btn-secondary" id="cta-email">Nous contacter</a>
+                <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/celinefunda-abuoglu/30min'});return false;" class="btn-primary" id="cta-schedule">Planifier une consultation</a>
             </div>
         </div>
     </section>
@@ -152,47 +163,52 @@
         <div class="footer-container">
             <div class="footer-grid">
                 <div class="footer-column">
-                    <img src="logo.png" alt="Core Innovation Services" class="footer-logo">
-                    <p class="footer-description">Empowering businesses with innovative technology solutions.</p>
+                    <img src="logo.png" alt="Cabinet Av. Funda Abuoglu" class="footer-logo">
+                    <p class="footer-description" id="footer-desc">Cabinet d'avocat à Istanbul, dédié au conseil, au droit de la famille, au droit des sociétés et au droit des étrangers.</p>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/development-and-design" target="_blank">Development & Design</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/consulting-and-strategy" target="_blank">Consulting & Strategy</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/education-and-training" target="_blank">Education & Training</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation/our-services/our-comprehensive-solutions/networking-and-infrastructure" target="_blank">Infrastructure</a></li>
+                    <h4 class="footer-title" id="footer-services-title">Services</h4>
+                    <ul class="footer-links" id="footer-services">
+                        <li><a href="index.html#services">Conseil juridique</a></li>
+                        <li><a href="index.html#services">Droit de la famille</a></li>
+                        <li><a href="index.html#services">Droit des sociétés</a></li>
+                        <li><a href="index.html#services">Droit des étrangers</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="index-light.html">Home</a></li>
-                        <li><a href="projects-light.html">Projects</a></li>
-                        <li><a href="https://cis-dapp.gitbook.io/cis-documentation" target="_blank">Documentation</a></li>
-                        <li><a href="mailto:bd@cis-dapp.com?subject=General Inquiry&body=Hello, I would like to get in touch with Core Innovation Services.">Contact</a></li>
+                    <h4 class="footer-title" id="footer-company-title">Cabinet</h4>
+                    <ul class="footer-links" id="footer-company">
+                        <li><a href="projects-light.html">Dossiers & références</a></li>
+                        <li><a href="index.html">À propos</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://www.linkedin.com/company/cis-dapp/" target="_blank">LinkedIn</a></li>
+                    <h4 class="footer-title" id="footer-connect-title">Réseaux</h4>
+                    <ul class="footer-links" id="footer-connect">
+                        <li><a href="https://www.linkedin.com/in/funda-abuoglu/" target="_blank">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Core Innovation Services. All rights reserved.</p>
+                <p id="footer-copyright">&copy; 2025 Cabinet Av. Funda Abuoglu. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
 
-
-
     <!-- Multi-language support -->
     <script>
         let content = null;
+        let isDarkMode = localStorage.getItem('theme') === 'dark';
 
-        // Get language from URL parameter or localStorage
+        // Initialize dark mode on page load
+        function initializeDarkMode() {
+            if (isDarkMode) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-text').textContent = 'Light Mode';
+            }
+        }
+
         function getLanguageFromURL() {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get('lang');
@@ -204,139 +220,179 @@
             window.history.pushState({}, '', url);
         }
 
-        // Priority: URL parameter > localStorage > default 'en'
-        const urlLang = getLanguageFromURL();
-        let currentLang = urlLang || localStorage.getItem('language') || 'en';
+        // Get browser language preference
+        const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase().split('-')[0];
+        const supportedLangs = ['fr', 'ar', 'tr'];
+        const defaultLang = supportedLangs.includes(browserLang) ? browserLang : 'fr';
 
-        // If URL has language, update localStorage to match
+        const urlLang = getLanguageFromURL();
+        let currentLang = urlLang || localStorage.getItem('language') || defaultLang;
+
         if (urlLang) {
             localStorage.setItem('language', urlLang);
         } else {
-            // If no URL parameter, add it based on current language
             setLanguageInURL(currentLang);
         }
 
-        // Load JSON content
-        fetch('content.json')
+        // Load content from JSON
+        fetch('projectcontent.json')
             .then(response => response.json())
             .then(data => {
                 content = data;
+                initializeDarkMode();
                 updateContent();
+                setupLanguageDropdown();
             })
             .catch(error => console.error('Error loading content:', error));
 
         function updateContent() {
-            if (!content) return;
+            if (!content || !content[currentLang]) return;
 
-            const page = content[currentLang].projects;
+            const page = content[currentLang].projectsLight;
 
             // Update meta tags
-            document.title = page.meta.title;
+            document.getElementById('page-title').textContent = page.meta.title;
             document.querySelector('meta[name="description"]').content = page.meta.description;
+            document.title = page.meta.title;
 
-            // Set text direction and logo based on language
+            // Set text direction
             if (currentLang === 'ar') {
                 document.documentElement.setAttribute('dir', 'rtl');
                 document.body.style.direction = 'rtl';
-                document.getElementById('header-logo').src = 'logo-ar.png';
             } else {
                 document.documentElement.setAttribute('dir', 'ltr');
                 document.body.style.direction = 'ltr';
-                document.getElementById('header-logo').src = 'logo.png';
             }
 
-            // Update page hero
-            document.getElementById('back-link').textContent = page.pageHero.backLink;
-            document.getElementById('page-title').textContent = page.pageHero.title;
-            document.getElementById('page-subtitle').textContent = page.pageHero.subtitle;
+            // Update page header
+            document.getElementById('back-link').textContent = page.hero.backLink;
+            document.getElementById('page-title-hero').textContent = page.hero.title;
+            document.getElementById('page-subtitle').textContent = page.hero.subtitle;
 
-            // Update theme toggle
-            document.getElementById('theme-text').textContent = page.header.darkMode;
+            // Update theme toggle text
+            const themeText = isDarkMode ? 'Light Mode' : page.header.darkMode;
+            document.getElementById('theme-text').textContent = themeText;
 
-            // Update project cards
-            const projectCards = document.querySelectorAll('.project-card');
-            page.projects.forEach((project, index) => {
-                if (projectCards[index]) {
-                    projectCards[index].querySelector('.project-title').textContent = project.title;
-                    projectCards[index].querySelector('.project-category').textContent = project.category;
-                    projectCards[index].querySelector('.project-description').textContent = project.description;
+            // Update projects from JSON
+            if (page.projects && Array.isArray(page.projects)) {
+                const container = document.getElementById('projects-container');
+                container.innerHTML = '';
 
-                    const tags = projectCards[index].querySelectorAll('.project-tag');
-                    project.tags.forEach((tag, i) => {
-                        if (tags[i]) tags[i].textContent = tag;
-                    });
+                page.projects.forEach(project => {
+                    const card = document.createElement('div');
+                    card.className = 'project-card';
 
-                    const linkBtn = projectCards[index].querySelector('.project-link-btn');
-                    if (linkBtn) {
-                        const textNode = linkBtn.childNodes[0];
-                        if (textNode) textNode.textContent = project.link + ' ';
-                    }
-                }
-            });
+                    const tagsHtml = project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('');
+
+                    card.innerHTML = `
+                        <div class="project-image">
+                            <img src="${project.image}" alt="${project.title}" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h2 class="project-title">${project.title}</h2>
+                            <p class="project-category">${project.category}</p>
+                            <p class="project-description">${project.description}</p>
+                            <div class="project-tags">
+                                ${tagsHtml}
+                            </div>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            }
 
             // Update CTA section
-            document.querySelector('.cta-title').textContent = page.cta.title;
-            document.querySelector('.cta-description').textContent = page.cta.description;
-            document.querySelectorAll('.cta-buttons a')[0].textContent = page.cta.contactButton;
-            document.querySelectorAll('.cta-buttons a')[1].textContent = page.cta.scheduleButton;
+            if (page.cta) {
+                document.getElementById('cta-title').textContent = page.cta.title;
+                document.getElementById('cta-desc').textContent = page.cta.description;
+                document.getElementById('cta-email').textContent = page.cta.contactButton;
+                document.getElementById('cta-schedule').textContent = page.cta.scheduleButton;
+            }
 
             // Update footer
-            document.querySelector('.footer-description').textContent = page.footer.description;
+            if (page.footer) {
+                document.getElementById('footer-desc').textContent = page.footer.description;
+                document.getElementById('footer-services-title').textContent = page.footer.services.title;
+                document.getElementById('footer-company-title').textContent = page.footer.company.title;
+                document.getElementById('footer-connect-title').textContent = page.footer.connect.title;
+                document.getElementById('footer-copyright').textContent = page.footer.copyright;
 
-            const footerColumns = document.querySelectorAll('.footer-column');
-            if (footerColumns[1]) {
-                footerColumns[1].querySelector('.footer-title').textContent = page.footer.services.title;
-                const serviceLinks = footerColumns[1].querySelectorAll('.footer-links li a');
-                page.footer.services.links.forEach((link, i) => {
-                    if (serviceLinks[i]) serviceLinks[i].textContent = link;
-                });
+                // Update footer links
+                if (page.footer.services && page.footer.services.links) {
+                    page.footer.services.links.forEach((link, idx) => {
+                        const el = document.querySelectorAll('#footer-services li')[idx];
+                        if (el) el.querySelector('a').textContent = link;
+                    });
+                }
+
+                if (page.footer.company && page.footer.company.links) {
+                    page.footer.company.links.forEach((link, idx) => {
+                        const el = document.querySelectorAll('#footer-company li')[idx];
+                        if (el) el.querySelector('a').textContent = link;
+                    });
+                }
             }
 
-            if (footerColumns[2]) {
-                footerColumns[2].querySelector('.footer-title').textContent = page.footer.company.title;
-                const companyLinks = footerColumns[2].querySelectorAll('.footer-links li a');
-                page.footer.company.links.forEach((link, i) => {
-                    if (companyLinks[i]) companyLinks[i].textContent = link;
-                });
-            }
-
-            if (footerColumns[3]) {
-                footerColumns[3].querySelector('.footer-title').textContent = page.footer.connect.title;
-                const connectLinks = footerColumns[3].querySelectorAll('.footer-links li a');
-                page.footer.connect.links.forEach((link, i) => {
-                    if (connectLinks[i]) connectLinks[i].textContent = link;
-                });
-            }
-
-            document.querySelector('.footer-bottom p').textContent = page.footer.copyright;
-
-            // Update language toggle button
+            // Update language toggle
             document.getElementById('lang-text').textContent = currentLang.toUpperCase();
-
-            // Update links to include language parameter
-            document.getElementById('home-link').href = 'index.html?lang=' + currentLang;
-            document.getElementById('back-link').href = 'index.html?lang=' + currentLang;
         }
 
-        function toggleLanguage() {
-            // Cycle through languages: EN -> TR -> AR -> EN
-            if (currentLang === 'en') {
-                currentLang = 'tr';
-            } else if (currentLang === 'tr') {
-                currentLang = 'ar';
-            } else {
-                currentLang = 'en';
-            }
-            localStorage.setItem('language', currentLang);
-            setLanguageInURL(currentLang);
-            updateContent();
+        function toggleLangDropdown() {
+            const menu = document.getElementById('lang-dropdown-menu');
+            menu.classList.toggle('show');
         }
 
-        // Theme toggle function
+        function closeLangDropdown() {
+            const menu = document.getElementById('lang-dropdown-menu');
+            menu.classList.remove('show');
+        }
+
+        function setupLanguageDropdown() {
+            const langOptions = document.querySelectorAll('.lang-option');
+            langOptions.forEach(option => {
+                option.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    currentLang = this.getAttribute('data-lang');
+                    localStorage.setItem('language', currentLang);
+                    setLanguageInURL(currentLang);
+                    document.getElementById('lang-text').textContent = currentLang.toUpperCase();
+                    updateContent();
+                    closeLangDropdown();
+                });
+            });
+        }
+
         function toggleTheme() {
-            localStorage.setItem('theme', 'dark');
-            window.location.href = 'projects.html?lang=' + currentLang;
+            isDarkMode = !isDarkMode;
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+            
+            if (isDarkMode) {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-text').textContent = 'Light Mode';
+            } else {
+                document.body.classList.remove('dark-mode');
+                document.getElementById('theme-text').textContent = 'Dark Mode';
+            }
         }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('lang-dropdown-menu');
+            const toggle = document.getElementById('lang-toggle');
+            if (dropdown && toggle && !dropdown.contains(event.target) && !toggle.contains(event.target)) {
+                closeLangDropdown();
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
     </script>
 </body>
 </html>
