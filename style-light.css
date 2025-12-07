@@ -102,6 +102,7 @@ body.dark-mode {
     display: flex;
     flex-direction: column;
     gap: 2px;
+    font-family: 'Cairo', sans-serif;
 }
 
 .logo-brand {
